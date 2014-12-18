@@ -1,0 +1,6897 @@
+{
+  "Open+Sans": {
+    "family": "Open Sans",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "devanagari",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Roboto": {
+    "family": "Roboto",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Oswald": {
+    "family": "Oswald",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lato": {
+    "family": "Lato",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Droid+Sans": {
+    "family": "Droid Sans",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Open+Sans+Condensed": {
+    "family": "Open Sans Condensed",
+    "variants": [
+      "300",
+      "300italic",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "PT+Sans": {
+    "family": "PT Sans",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Source+Sans+Pro": {
+    "family": "Source Sans Pro",
+    "variants": [
+      "200",
+      "200italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Roboto+Condensed": {
+    "family": "Roboto Condensed",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Ubuntu": {
+    "family": "Ubuntu",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Droid+Serif": {
+    "family": "Droid Serif",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "PT+Sans+Narrow": {
+    "family": "PT Sans Narrow",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Montserrat": {
+    "family": "Montserrat",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Raleway": {
+    "family": "Raleway",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Yanone+Kaffeesatz": {
+    "family": "Yanone Kaffeesatz",
+    "variants": [
+      "200",
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lora": {
+    "family": "Lora",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Lobster": {
+    "family": "Lobster",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Arimo": {
+    "family": "Arimo",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Francois+One": {
+    "family": "Francois One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bitter": {
+    "family": "Bitter",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Oxygen": {
+    "family": "Oxygen",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Arvo": {
+    "family": "Arvo",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Titillium+Web": {
+    "family": "Titillium Web",
+    "variants": [
+      "200",
+      "200italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Dosis": {
+    "family": "Dosis",
+    "variants": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Varela+Round": {
+    "family": "Varela Round",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Noto+Sans": {
+    "family": "Noto Sans",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "devanagari",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Merriweather": {
+    "family": "Merriweather",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Play": {
+    "family": "Play",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "PT+Serif": {
+    "family": "PT Serif",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Cabin": {
+    "family": "Cabin",
+    "variants": [
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Roboto+Slab": {
+    "family": "Roboto Slab",
+    "variants": [
+      "100",
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Josefin+Sans": {
+    "family": "Josefin Sans",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ubuntu+Condensed": {
+    "family": "Ubuntu Condensed",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Abel": {
+    "family": "Abel",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cuprum": {
+    "family": "Cuprum",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Libre+Baskerville": {
+    "family": "Libre Baskerville",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Muli": {
+    "family": "Muli",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rokkitt": {
+    "family": "Rokkitt",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Inconsolata": {
+    "family": "Inconsolata",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fjalla+One": {
+    "family": "Fjalla One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Indie+Flower": {
+    "family": "Indie Flower",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "News+Cycle": {
+    "family": "News Cycle",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Nunito": {
+    "family": "Nunito",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Maven+Pro": {
+    "family": "Maven Pro",
+    "variants": [
+      "400",
+      "500",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Anton": {
+    "family": "Anton",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Playfair+Display": {
+    "family": "Playfair Display",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Merriweather+Sans": {
+    "family": "Merriweather Sans",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Archivo+Narrow": {
+    "family": "Archivo Narrow",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Shadows+Into+Light": {
+    "family": "Shadows Into Light",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Signika": {
+    "family": "Signika",
+    "variants": [
+      "300",
+      "400",
+      "600",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cardo": {
+    "family": "Cardo",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "greek",
+      "latin-ext",
+      "latin",
+      "greek-ext"
+    ]
+  },
+  "Asap": {
+    "family": "Asap",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "The+Girl+Next+Door": {
+    "family": "The Girl Next Door",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Armata": {
+    "family": "Armata",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Gentium+Book+Basic": {
+    "family": "Gentium Book Basic",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Pacifico": {
+    "family": "Pacifico",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bree+Serif": {
+    "family": "Bree Serif",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Dancing+Script": {
+    "family": "Dancing Script",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Coming+Soon": {
+    "family": "Coming Soon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Hammersmith+One": {
+    "family": "Hammersmith One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "PT+Sans+Caption": {
+    "family": "PT Sans Caption",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Questrial": {
+    "family": "Questrial",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Droid+Sans+Mono": {
+    "family": "Droid Sans Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Vollkorn": {
+    "family": "Vollkorn",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Allan": {
+    "family": "Allan",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Nobile": {
+    "family": "Nobile",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alegreya": {
+    "family": "Alegreya",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Karla": {
+    "family": "Karla",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Quicksand": {
+    "family": "Quicksand",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Audiowide": {
+    "family": "Audiowide",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cabin+Condensed": {
+    "family": "Cabin Condensed",
+    "variants": [
+      "400",
+      "500",
+      "600",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Voltaire": {
+    "family": "Voltaire",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ubuntu+Mono": {
+    "family": "Ubuntu Mono",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Kreon": {
+    "family": "Kreon",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Exo": {
+    "family": "Exo",
+    "variants": [
+      "100",
+      "100italic",
+      "200",
+      "200italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Istok+Web": {
+    "family": "Istok Web",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Poiret+One": {
+    "family": "Poiret One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Pathway+Gothic+One": {
+    "family": "Pathway Gothic One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Changa+One": {
+    "family": "Changa One",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Chewy": {
+    "family": "Chewy",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Monda": {
+    "family": "Monda",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Crafty+Girls": {
+    "family": "Crafty Girls",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gudea": {
+    "family": "Gudea",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Philosopher": {
+    "family": "Philosopher",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Pontano+Sans": {
+    "family": "Pontano Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Gloria+Hallelujah": {
+    "family": "Gloria Hallelujah",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Varela": {
+    "family": "Varela",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Luckiest+Guy": {
+    "family": "Luckiest Guy",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ropa+Sans": {
+    "family": "Ropa Sans",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Playball": {
+    "family": "Playball",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Rock+Salt": {
+    "family": "Rock Salt",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Squada+One": {
+    "family": "Squada One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nothing+You+Could+Do": {
+    "family": "Nothing You Could Do",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Special+Elite": {
+    "family": "Special Elite",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Telex": {
+    "family": "Telex",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Noto+Serif": {
+    "family": "Noto Serif",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Patua+One": {
+    "family": "Patua One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Quattrocento+Sans": {
+    "family": "Quattrocento Sans",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fredoka+One": {
+    "family": "Fredoka One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Montserrat+Alternates": {
+    "family": "Montserrat Alternates",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Lusitana": {
+    "family": "Lusitana",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Josefin+Slab": {
+    "family": "Josefin Slab",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Crimson+Text": {
+    "family": "Crimson Text",
+    "variants": [
+      "400",
+      "400italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bangers": {
+    "family": "Bangers",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Lemon": {
+    "family": "Lemon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cantarell": {
+    "family": "Cantarell",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Lobster+Two": {
+    "family": "Lobster Two",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Covered+By+Your+Grace": {
+    "family": "Covered By Your Grace",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jockey+One": {
+    "family": "Jockey One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Noticia+Text": {
+    "family": "Noticia Text",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Permanent+Marker": {
+    "family": "Permanent Marker",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Crete+Round": {
+    "family": "Crete Round",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Marvel": {
+    "family": "Marvel",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "EB+Garamond": {
+    "family": "EB Garamond",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Calligraffitti": {
+    "family": "Calligraffitti",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Comfortaa": {
+    "family": "Comfortaa",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Bevan": {
+    "family": "Bevan",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Economica": {
+    "family": "Economica",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Oleo+Script": {
+    "family": "Oleo Script",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cantata+One": {
+    "family": "Cantata One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Old+Standard+TT": {
+    "family": "Old Standard TT",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Amatic+SC": {
+    "family": "Amatic SC",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "BenchNine": {
+    "family": "BenchNine",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Chivo": {
+    "family": "Chivo",
+    "variants": [
+      "400",
+      "400italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tinos": {
+    "family": "Tinos",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Allerta": {
+    "family": "Allerta",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cherry+Cream+Soda": {
+    "family": "Cherry Cream Soda",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Satisfy": {
+    "family": "Satisfy",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Righteous": {
+    "family": "Righteous",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Amaranth": {
+    "family": "Amaranth",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Architects+Daughter": {
+    "family": "Architects Daughter",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Shadows+Into+Light+Two": {
+    "family": "Shadows Into Light Two",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Handlee": {
+    "family": "Handlee",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Metrophobic": {
+    "family": "Metrophobic",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Archivo+Black": {
+    "family": "Archivo Black",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Orbitron": {
+    "family": "Orbitron",
+    "variants": [
+      "400",
+      "500",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kaushan+Script": {
+    "family": "Kaushan Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Black+Ops+One": {
+    "family": "Black Ops One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Paytone+One": {
+    "family": "Paytone One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tangerine": {
+    "family": "Tangerine",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sanchez": {
+    "family": "Sanchez",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Molengo": {
+    "family": "Molengo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Patrick+Hand": {
+    "family": "Patrick Hand",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Pinyon+Script": {
+    "family": "Pinyon Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Passion+One": {
+    "family": "Passion One",
+    "variants": [
+      "400",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Quattrocento": {
+    "family": "Quattrocento",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Exo+2": {
+    "family": "Exo 2",
+    "variants": [
+      "100",
+      "100italic",
+      "200",
+      "200italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Carme": {
+    "family": "Carme",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sigmar+One": {
+    "family": "Sigmar One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Source+Code+Pro": {
+    "family": "Source Code Pro",
+    "variants": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Reenie+Beanie": {
+    "family": "Reenie Beanie",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Enriqueta": {
+    "family": "Enriqueta",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Waiting+for+the+Sunrise": {
+    "family": "Waiting for the Sunrise",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Domine": {
+    "family": "Domine",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Marck+Script": {
+    "family": "Marck Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Actor": {
+    "family": "Actor",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Playfair+Display+SC": {
+    "family": "Playfair Display SC",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Unkempt": {
+    "family": "Unkempt",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Walter+Turncoat": {
+    "family": "Walter Turncoat",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kameron": {
+    "family": "Kameron",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Just+Me+Again+Down+Here": {
+    "family": "Just Me Again Down Here",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Rancho": {
+    "family": "Rancho",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Syncopate": {
+    "family": "Syncopate",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Didact+Gothic": {
+    "family": "Didact Gothic",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Marmelad": {
+    "family": "Marmelad",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Scada": {
+    "family": "Scada",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Vidaloka": {
+    "family": "Vidaloka",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Share": {
+    "family": "Share",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Carrois+Gothic": {
+    "family": "Carrois Gothic",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Coda": {
+    "family": "Coda",
+    "variants": [
+      "400",
+      "800"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Electrolize": {
+    "family": "Electrolize",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gilda+Display": {
+    "family": "Gilda Display",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Loved+by+the+King": {
+    "family": "Loved by the King",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Antic+Slab": {
+    "family": "Antic Slab",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Copse": {
+    "family": "Copse",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rambla": {
+    "family": "Rambla",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Rosario": {
+    "family": "Rosario",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Great+Vibes": {
+    "family": "Great Vibes",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Just+Another+Hand": {
+    "family": "Just Another Hand",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Goudy+Bookletter+1911": {
+    "family": "Goudy Bookletter 1911",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Berkshire+Swash": {
+    "family": "Berkshire Swash",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Leckerli+One": {
+    "family": "Leckerli One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jura": {
+    "family": "Jura",
+    "variants": [
+      "300",
+      "400",
+      "500",
+      "600"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Overlock": {
+    "family": "Overlock",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Neucha": {
+    "family": "Neucha",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Ruda": {
+    "family": "Ruda",
+    "variants": [
+      "400",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Courgette": {
+    "family": "Courgette",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Doppio+One": {
+    "family": "Doppio One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "PT+Serif+Caption": {
+    "family": "PT Serif Caption",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Aldrich": {
+    "family": "Aldrich",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Viga": {
+    "family": "Viga",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Allerta+Stencil": {
+    "family": "Allerta Stencil",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sintony": {
+    "family": "Sintony",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Rochester": {
+    "family": "Rochester",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cinzel": {
+    "family": "Cinzel",
+    "variants": [
+      "400",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Russo+One": {
+    "family": "Russo One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Bad+Script": {
+    "family": "Bad Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Michroma": {
+    "family": "Michroma",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Signika+Negative": {
+    "family": "Signika Negative",
+    "variants": [
+      "300",
+      "400",
+      "600",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Julius+Sans+One": {
+    "family": "Julius Sans One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sorts+Mill+Goudy": {
+    "family": "Sorts Mill Goudy",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Schoolbell": {
+    "family": "Schoolbell",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Inder": {
+    "family": "Inder",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Abril+Fatface": {
+    "family": "Abril Fatface",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Homemade+Apple": {
+    "family": "Homemade Apple",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Fugaz+One": {
+    "family": "Fugaz One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Coustard": {
+    "family": "Coustard",
+    "variants": [
+      "400",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Glegoo": {
+    "family": "Glegoo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Damion": {
+    "family": "Damion",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alfa+Slab+One": {
+    "family": "Alfa Slab One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Six+Caps": {
+    "family": "Six Caps",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Judson": {
+    "family": "Judson",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Love+Ya+Like+A+Sister": {
+    "family": "Love Ya Like A Sister",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nova+Square": {
+    "family": "Nova Square",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gochi+Hand": {
+    "family": "Gochi Hand",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Belleza": {
+    "family": "Belleza",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fauna+One": {
+    "family": "Fauna One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Volkhov": {
+    "family": "Volkhov",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Englebert": {
+    "family": "Englebert",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sansita+One": {
+    "family": "Sansita One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Neuton": {
+    "family": "Neuton",
+    "variants": [
+      "200",
+      "300",
+      "400",
+      "400italic",
+      "700",
+      "800"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Convergence": {
+    "family": "Convergence",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Spirax": {
+    "family": "Spirax",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Arapey": {
+    "family": "Arapey",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Fontdiner+Swanky": {
+    "family": "Fontdiner Swanky",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Magra": {
+    "family": "Magra",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cabin+Sketch": {
+    "family": "Cabin Sketch",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cutive": {
+    "family": "Cutive",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "ABeeZee": {
+    "family": "ABeeZee",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Crushed": {
+    "family": "Crushed",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Limelight": {
+    "family": "Limelight",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Puritan": {
+    "family": "Puritan",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alegreya+Sans": {
+    "family": "Alegreya Sans",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Nixie+One": {
+    "family": "Nixie One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Give+You+Glory": {
+    "family": "Give You Glory",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Arbutus+Slab": {
+    "family": "Arbutus Slab",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Slackey": {
+    "family": "Slackey",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gentium+Basic": {
+    "family": "Gentium Basic",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Boogaloo": {
+    "family": "Boogaloo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Montez": {
+    "family": "Montez",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Advent+Pro": {
+    "family": "Advent Pro",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700"
+    ],
+    "subsets": [
+      "greek",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Alegreya+Sans+SC": {
+    "family": "Alegreya Sans SC",
+    "variants": [
+      "100",
+      "100italic",
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "700",
+      "700italic",
+      "800",
+      "800italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Petit+Formal+Script": {
+    "family": "Petit Formal Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Caudex": {
+    "family": "Caudex",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "greek",
+      "latin-ext",
+      "latin",
+      "greek-ext"
+    ]
+  },
+  "Radley": {
+    "family": "Radley",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Poller+One": {
+    "family": "Poller One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Trocchi": {
+    "family": "Trocchi",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Salsa": {
+    "family": "Salsa",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Merienda+One": {
+    "family": "Merienda One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Prata": {
+    "family": "Prata",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gruppo": {
+    "family": "Gruppo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Denk+One": {
+    "family": "Denk One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Orienta": {
+    "family": "Orienta",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Allura": {
+    "family": "Allura",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Yellowtail": {
+    "family": "Yellowtail",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Homenaje": {
+    "family": "Homenaje",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lekton": {
+    "family": "Lekton",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Metamorphous": {
+    "family": "Metamorphous",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Chau+Philomene+One": {
+    "family": "Chau Philomene One",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fredericka+the+Great": {
+    "family": "Fredericka the Great",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Marcellus+SC": {
+    "family": "Marcellus SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Days+One": {
+    "family": "Days One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Spinnaker": {
+    "family": "Spinnaker",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cookie": {
+    "family": "Cookie",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mako": {
+    "family": "Mako",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alef": {
+    "family": "Alef",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Quando": {
+    "family": "Quando",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Duru+Sans": {
+    "family": "Duru Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ultra": {
+    "family": "Ultra",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Parisienne": {
+    "family": "Parisienne",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Andika": {
+    "family": "Andika",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Iceland": {
+    "family": "Iceland",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Strait": {
+    "family": "Strait",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Headland+One": {
+    "family": "Headland One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Kranky": {
+    "family": "Kranky",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kotta+One": {
+    "family": "Kotta One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bentham": {
+    "family": "Bentham",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Acme": {
+    "family": "Acme",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tenor+Sans": {
+    "family": "Tenor Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Fanwood+Text": {
+    "family": "Fanwood Text",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sacramento": {
+    "family": "Sacramento",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Candal": {
+    "family": "Candal",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Niconne": {
+    "family": "Niconne",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Prosto+One": {
+    "family": "Prosto One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "IM+Fell+English": {
+    "family": "IM Fell English",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alike": {
+    "family": "Alike",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Shanti": {
+    "family": "Shanti",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Happy+Monkey": {
+    "family": "Happy Monkey",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Anonymous+Pro": {
+    "family": "Anonymous Pro",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Sancreek": {
+    "family": "Sancreek",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Pompiere": {
+    "family": "Pompiere",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Racing+Sans+One": {
+    "family": "Racing Sans One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cousine": {
+    "family": "Cousine",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "vietnamese",
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic",
+      "greek-ext"
+    ]
+  },
+  "Sunshiney": {
+    "family": "Sunshiney",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Wendy+One": {
+    "family": "Wendy One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Brawler": {
+    "family": "Brawler",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tienne": {
+    "family": "Tienne",
+    "variants": [
+      "400",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Forum": {
+    "family": "Forum",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Kristi": {
+    "family": "Kristi",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Oleo+Script+Swash+Caps": {
+    "family": "Oleo Script Swash Caps",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Average+Sans": {
+    "family": "Average Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fenix": {
+    "family": "Fenix",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Merienda": {
+    "family": "Merienda",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Quantico": {
+    "family": "Quantico",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "La+Belle+Aurore": {
+    "family": "La Belle Aurore",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Short+Stack": {
+    "family": "Short Stack",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Anaheim": {
+    "family": "Anaheim",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ovo": {
+    "family": "Ovo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Delius": {
+    "family": "Delius",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Codystar": {
+    "family": "Codystar",
+    "variants": [
+      "300",
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Adamina": {
+    "family": "Adamina",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mountains+of+Christmas": {
+    "family": "Mountains of Christmas",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Alex+Brush": {
+    "family": "Alex Brush",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Yesteryear": {
+    "family": "Yesteryear",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Basic": {
+    "family": "Basic",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Alice": {
+    "family": "Alice",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Contrail+One": {
+    "family": "Contrail One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gafata": {
+    "family": "Gafata",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Alegreya+SC": {
+    "family": "Alegreya SC",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "IM+Fell+DW+Pica": {
+    "family": "IM Fell DW Pica",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Carrois+Gothic+SC": {
+    "family": "Carrois Gothic SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Aclonica": {
+    "family": "Aclonica",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Averia+Sans+Libre": {
+    "family": "Averia Sans Libre",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Carter+One": {
+    "family": "Carter One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Over+the+Rainbow": {
+    "family": "Over the Rainbow",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kelly+Slab": {
+    "family": "Kelly Slab",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Podkova": {
+    "family": "Podkova",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Coda+Caption": {
+    "family": "Coda Caption",
+    "variants": [
+      "800"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sue+Ellen+Francisco": {
+    "family": "Sue Ellen Francisco",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tulpen+One": {
+    "family": "Tulpen One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kavoon": {
+    "family": "Kavoon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Frijole": {
+    "family": "Frijole",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Norican": {
+    "family": "Norican",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Quintessential": {
+    "family": "Quintessential",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Yeseva+One": {
+    "family": "Yeseva One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Nova+Round": {
+    "family": "Nova Round",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Wire+One": {
+    "family": "Wire One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Tauri": {
+    "family": "Tauri",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Press+Start+2P": {
+    "family": "Press Start 2P",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "greek",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Finger+Paint": {
+    "family": "Finger Paint",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Annie+Use+Your+Telescope": {
+    "family": "Annie Use Your Telescope",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Geo": {
+    "family": "Geo",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Corben": {
+    "family": "Corben",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Chango": {
+    "family": "Chango",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cedarville+Cursive": {
+    "family": "Cedarville Cursive",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Delius+Swash+Caps": {
+    "family": "Delius Swash Caps",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Expletus+Sans": {
+    "family": "Expletus Sans",
+    "variants": [
+      "400",
+      "400italic",
+      "500",
+      "500italic",
+      "600",
+      "600italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Krona+One": {
+    "family": "Krona One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sonsie+One": {
+    "family": "Sonsie One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Maiden+Orange": {
+    "family": "Maiden Orange",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rationale": {
+    "family": "Rationale",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Capriola": {
+    "family": "Capriola",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Stardos+Stencil": {
+    "family": "Stardos Stencil",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Voces": {
+    "family": "Voces",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Dawning+of+a+New+Day": {
+    "family": "Dawning of a New Day",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Antic": {
+    "family": "Antic",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Skranji": {
+    "family": "Skranji",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lily+Script+One": {
+    "family": "Lily Script One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Baumans": {
+    "family": "Baumans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Federo": {
+    "family": "Federo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bowlby+One+SC": {
+    "family": "Bowlby One SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lilita+One": {
+    "family": "Lilita One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Andada": {
+    "family": "Andada",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Megrim": {
+    "family": "Megrim",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cantora+One": {
+    "family": "Cantora One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Vibur": {
+    "family": "Vibur",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cinzel+Decorative": {
+    "family": "Cinzel Decorative",
+    "variants": [
+      "400",
+      "700",
+      "900"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cutive+Mono": {
+    "family": "Cutive Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Galdeano": {
+    "family": "Galdeano",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mouse+Memoirs": {
+    "family": "Mouse Memoirs",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Buenard": {
+    "family": "Buenard",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Zeyada": {
+    "family": "Zeyada",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Delius+Unicase": {
+    "family": "Delius Unicase",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+English+SC": {
+    "family": "IM Fell English SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "UnifrakturMaguntia": {
+    "family": "UnifrakturMaguntia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Imprima": {
+    "family": "Imprima",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Poly": {
+    "family": "Poly",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+DW+Pica+SC": {
+    "family": "IM Fell DW Pica SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "VT323": {
+    "family": "VT323",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "PT+Mono": {
+    "family": "PT Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Miltonian+Tattoo": {
+    "family": "Miltonian Tattoo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Redressed": {
+    "family": "Redressed",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Marcellus": {
+    "family": "Marcellus",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Meddon": {
+    "family": "Meddon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Italianno": {
+    "family": "Italianno",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Unna": {
+    "family": "Unna",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Lustria": {
+    "family": "Lustria",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nova+Mono": {
+    "family": "Nova Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "greek",
+      "latin"
+    ]
+  },
+  "Knewave": {
+    "family": "Knewave",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Mate+SC": {
+    "family": "Mate SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Belgrano": {
+    "family": "Belgrano",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Grand+Hotel": {
+    "family": "Grand Hotel",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Hanuman": {
+    "family": "Hanuman",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "IM+Fell+French+Canon": {
+    "family": "IM Fell French Canon",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Clicker+Script": {
+    "family": "Clicker Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Simonetta": {
+    "family": "Simonetta",
+    "variants": [
+      "400",
+      "400italic",
+      "900",
+      "900italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Swanky+and+Moo+Moo": {
+    "family": "Swanky and Moo Moo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "GFS+Didot": {
+    "family": "GFS Didot",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "greek"
+    ]
+  },
+  "Bowlby+One": {
+    "family": "Bowlby One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Share+Tech": {
+    "family": "Share Tech",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Chelsea+Market": {
+    "family": "Chelsea Market",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Inika": {
+    "family": "Inika",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "MedievalSharp": {
+    "family": "MedievalSharp",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "IM+Fell+Double+Pica": {
+    "family": "IM Fell Double Pica",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Numans": {
+    "family": "Numans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+Great+Primer+SC": {
+    "family": "IM Fell Great Primer SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Oranienbaum": {
+    "family": "Oranienbaum",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Amethysta": {
+    "family": "Amethysta",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sofia": {
+    "family": "Sofia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Monoton": {
+    "family": "Monoton",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Revalia": {
+    "family": "Revalia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Port+Lligat+Slab": {
+    "family": "Port Lligat Slab",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Holtwood+One+SC": {
+    "family": "Holtwood One SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Snippet": {
+    "family": "Snippet",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Gabriela": {
+    "family": "Gabriela",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Vast+Shadow": {
+    "family": "Vast Shadow",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rufina": {
+    "family": "Rufina",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Oregano": {
+    "family": "Oregano",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Graduate": {
+    "family": "Graduate",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Dorsa": {
+    "family": "Dorsa",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Donegal+One": {
+    "family": "Donegal One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Gravitas+One": {
+    "family": "Gravitas One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Julee": {
+    "family": "Julee",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rammetto+One": {
+    "family": "Rammetto One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Prociono": {
+    "family": "Prociono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Patrick+Hand+SC": {
+    "family": "Patrick Hand SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "vietnamese",
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Arizonia": {
+    "family": "Arizonia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Average": {
+    "family": "Average",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Unica+One": {
+    "family": "Unica One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fjord+One": {
+    "family": "Fjord One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Buda": {
+    "family": "Buda",
+    "variants": [
+      "300"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sniglet": {
+    "family": "Sniglet",
+    "variants": [
+      "400",
+      "800"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ruslan+Display": {
+    "family": "Ruslan Display",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "cyrillic-ext",
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Junge": {
+    "family": "Junge",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Qwigley": {
+    "family": "Qwigley",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "UnifrakturCook": {
+    "family": "UnifrakturCook",
+    "variants": [
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kite+One": {
+    "family": "Kite One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+French+Canon+SC": {
+    "family": "IM Fell French Canon SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Oldenburg": {
+    "family": "Oldenburg",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Artifika": {
+    "family": "Artifika",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Oxygen+Mono": {
+    "family": "Oxygen Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Geostar+Fill": {
+    "family": "Geostar Fill",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mystery+Quest": {
+    "family": "Mystery Quest",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Amarante": {
+    "family": "Amarante",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Londrina+Solid": {
+    "family": "Londrina Solid",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Petrona": {
+    "family": "Petrona",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Condiment": {
+    "family": "Condiment",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Monofett": {
+    "family": "Monofett",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+Great+Primer": {
+    "family": "IM Fell Great Primer",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Euphoria+Script": {
+    "family": "Euphoria Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Mr+De+Haviland": {
+    "family": "Mr De Haviland",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Irish+Grover": {
+    "family": "Irish Grover",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Trochut": {
+    "family": "Trochut",
+    "variants": [
+      "400",
+      "400italic",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Linden+Hill": {
+    "family": "Linden Hill",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Astloch": {
+    "family": "Astloch",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jolly+Lodger": {
+    "family": "Jolly Lodger",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "League+Script": {
+    "family": "League Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Wallpoet": {
+    "family": "Wallpoet",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mate": {
+    "family": "Mate",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Sail": {
+    "family": "Sail",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rouge+Script": {
+    "family": "Rouge Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kenia": {
+    "family": "Kenia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Life+Savers": {
+    "family": "Life Savers",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bubblegum+Sans": {
+    "family": "Bubblegum Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Overlock+SC": {
+    "family": "Overlock SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Della+Respira": {
+    "family": "Della Respira",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ledger": {
+    "family": "Ledger",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Dynalight": {
+    "family": "Dynalight",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Nova+Slim": {
+    "family": "Nova Slim",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Creepster": {
+    "family": "Creepster",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Flamenco": {
+    "family": "Flamenco",
+    "variants": [
+      "300",
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nova+Flat": {
+    "family": "Nova Flat",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "IM+Fell+Double+Pica+SC": {
+    "family": "IM Fell Double Pica SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Cambo": {
+    "family": "Cambo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Averia+Serif+Libre": {
+    "family": "Averia Serif Libre",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Modern+Antiqua": {
+    "family": "Modern Antiqua",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Esteban": {
+    "family": "Esteban",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Concert+One": {
+    "family": "Concert One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Alike+Angular": {
+    "family": "Alike Angular",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nova+Script": {
+    "family": "Nova Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Rum+Raisin": {
+    "family": "Rum Raisin",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Engagement": {
+    "family": "Engagement",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Balthazar": {
+    "family": "Balthazar",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Medula+One": {
+    "family": "Medula One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bigshot+One": {
+    "family": "Bigshot One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ranchers": {
+    "family": "Ranchers",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Milonga": {
+    "family": "Milonga",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bilbo+Swash+Caps": {
+    "family": "Bilbo Swash Caps",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Paprika": {
+    "family": "Paprika",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Mr+Dafoe": {
+    "family": "Mr Dafoe",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Smythe": {
+    "family": "Smythe",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Text+Me+One": {
+    "family": "Text Me One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Molle": {
+    "family": "Molle",
+    "variants": [
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sofadi+One": {
+    "family": "Sofadi One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Shojumaru": {
+    "family": "Shojumaru",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Seaweed+Script": {
+    "family": "Seaweed Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Snowburst+One": {
+    "family": "Snowburst One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Nova+Oval": {
+    "family": "Nova Oval",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Lovers+Quarrel": {
+    "family": "Lovers Quarrel",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Rosarivo": {
+    "family": "Rosarivo",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cagliostro": {
+    "family": "Cagliostro",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Raleway+Dots": {
+    "family": "Raleway Dots",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Stint+Ultra+Condensed": {
+    "family": "Stint Ultra Condensed",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Geostar": {
+    "family": "Geostar",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jacques+Francois+Shadow": {
+    "family": "Jacques Francois Shadow",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Asset": {
+    "family": "Asset",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Ruluko": {
+    "family": "Ruluko",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Lancelot": {
+    "family": "Lancelot",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Goblin+One": {
+    "family": "Goblin One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Smokum": {
+    "family": "Smokum",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Atomic+Age": {
+    "family": "Atomic Age",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Miniver": {
+    "family": "Miniver",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Passero+One": {
+    "family": "Passero One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Port+Lligat+Sans": {
+    "family": "Port Lligat Sans",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Pirata+One": {
+    "family": "Pirata One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Gorditas": {
+    "family": "Gorditas",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nova+Cut": {
+    "family": "Nova Cut",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Trade+Winds": {
+    "family": "Trade Winds",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Henny+Penny": {
+    "family": "Henny Penny",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Aubrey": {
+    "family": "Aubrey",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Federant": {
+    "family": "Federant",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Montaga": {
+    "family": "Montaga",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jacques+Francois": {
+    "family": "Jacques Francois",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Miltonian": {
+    "family": "Miltonian",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "GFS+Neohellenic": {
+    "family": "GFS Neohellenic",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "greek"
+    ]
+  },
+  "Aladin": {
+    "family": "Aladin",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Stoke": {
+    "family": "Stoke",
+    "variants": [
+      "300",
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Griffy": {
+    "family": "Griffy",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Supermercado+One": {
+    "family": "Supermercado One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bilbo": {
+    "family": "Bilbo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Devonshire": {
+    "family": "Devonshire",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Seymour+One": {
+    "family": "Seymour One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Elsie+Swash+Caps": {
+    "family": "Elsie Swash Caps",
+    "variants": [
+      "400",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Londrina+Shadow": {
+    "family": "Londrina Shadow",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Titan+One": {
+    "family": "Titan One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Suwannaphum": {
+    "family": "Suwannaphum",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Rye": {
+    "family": "Rye",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Iceberg": {
+    "family": "Iceberg",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Peralta": {
+    "family": "Peralta",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Glass+Antiqua": {
+    "family": "Glass Antiqua",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Keania+One": {
+    "family": "Keania One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Cherry+Swash": {
+    "family": "Cherry Swash",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fondamento": {
+    "family": "Fondamento",
+    "variants": [
+      "400",
+      "400italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Autour+One": {
+    "family": "Autour One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fresca": {
+    "family": "Fresca",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Caesar+Dressing": {
+    "family": "Caesar Dressing",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Averia+Libre": {
+    "family": "Averia Libre",
+    "variants": [
+      "300",
+      "300italic",
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Wellfleet": {
+    "family": "Wellfleet",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Emblema+One": {
+    "family": "Emblema One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Aguafina+Script": {
+    "family": "Aguafina Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ruthie": {
+    "family": "Ruthie",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Chela+One": {
+    "family": "Chela One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "McLaren": {
+    "family": "McLaren",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Spicy+Rice": {
+    "family": "Spicy Rice",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Share+Tech+Mono": {
+    "family": "Share Tech Mono",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Khmer": {
+    "family": "Khmer",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Freckle+Face": {
+    "family": "Freckle Face",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Habibi": {
+    "family": "Habibi",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bubbler+One": {
+    "family": "Bubbler One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Italiana": {
+    "family": "Italiana",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Monsieur+La+Doulaise": {
+    "family": "Monsieur La Doulaise",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Trykker": {
+    "family": "Trykker",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Elsie": {
+    "family": "Elsie",
+    "variants": [
+      "400",
+      "900"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Montserrat+Subrayada": {
+    "family": "Montserrat Subrayada",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Piedra": {
+    "family": "Piedra",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Freehand": {
+    "family": "Freehand",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Croissant+One": {
+    "family": "Croissant One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Germania+One": {
+    "family": "Germania One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Antic+Didone": {
+    "family": "Antic Didone",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nosifer": {
+    "family": "Nosifer",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Offside": {
+    "family": "Offside",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Eagle+Lake": {
+    "family": "Eagle Lake",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Stalemate": {
+    "family": "Stalemate",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Asul": {
+    "family": "Asul",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Nokora": {
+    "family": "Nokora",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Akronim": {
+    "family": "Akronim",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Battambang": {
+    "family": "Battambang",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Purple+Purse": {
+    "family": "Purple Purse",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Mrs+Saint+Delafield": {
+    "family": "Mrs Saint Delafield",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Original+Surfer": {
+    "family": "Original Surfer",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Diplomata": {
+    "family": "Diplomata",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ceviche+One": {
+    "family": "Ceviche One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bigelow+Rules": {
+    "family": "Bigelow Rules",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Stint+Ultra+Expanded": {
+    "family": "Stint Ultra Expanded",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Galindo": {
+    "family": "Galindo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ribeye": {
+    "family": "Ribeye",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Chicle": {
+    "family": "Chicle",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Mrs+Sheppards": {
+    "family": "Mrs Sheppards",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Meie+Script": {
+    "family": "Meie Script",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Risque": {
+    "family": "Risque",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Emilys+Candy": {
+    "family": "Emilys Candy",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Eater": {
+    "family": "Eater",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Almendra": {
+    "family": "Almendra",
+    "variants": [
+      "400",
+      "400italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Ewert": {
+    "family": "Ewert",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sarina": {
+    "family": "Sarina",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fascinate": {
+    "family": "Fascinate",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Butterfly+Kids": {
+    "family": "Butterfly Kids",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sevillana": {
+    "family": "Sevillana",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Joti+One": {
+    "family": "Joti One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Odor+Mean+Chey": {
+    "family": "Odor Mean Chey",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Princess+Sofia": {
+    "family": "Princess Sofia",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Angkor": {
+    "family": "Angkor",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Ribeye+Marrow": {
+    "family": "Ribeye Marrow",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Arbutus": {
+    "family": "Arbutus",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Sirin+Stencil": {
+    "family": "Sirin Stencil",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Felipa": {
+    "family": "Felipa",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Dr+Sugiyama": {
+    "family": "Dr Sugiyama",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Marko+One": {
+    "family": "Marko One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Combo": {
+    "family": "Combo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Londrina+Sketch": {
+    "family": "Londrina Sketch",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Dangrek": {
+    "family": "Dangrek",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Romanesco": {
+    "family": "Romanesco",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Moulpali": {
+    "family": "Moulpali",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Margarine": {
+    "family": "Margarine",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Kdam+Thmor": {
+    "family": "Kdam Thmor",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Mr+Bedfort": {
+    "family": "Mr Bedfort",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bokor": {
+    "family": "Bokor",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Averia+Gruesa+Libre": {
+    "family": "Averia Gruesa Libre",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Metal+Mania": {
+    "family": "Metal Mania",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Faster+One": {
+    "family": "Faster One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Macondo+Swash+Caps": {
+    "family": "Macondo Swash Caps",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Londrina+Outline": {
+    "family": "Londrina Outline",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Vampiro+One": {
+    "family": "Vampiro One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Herr+Von+Muellerhoff": {
+    "family": "Herr Von Muellerhoff",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Moul": {
+    "family": "Moul",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Miss+Fajardose": {
+    "family": "Miss Fajardose",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Flavors": {
+    "family": "Flavors",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Kantumruy": {
+    "family": "Kantumruy",
+    "variants": [
+      "300",
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "New+Rocker": {
+    "family": "New Rocker",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Content": {
+    "family": "Content",
+    "variants": [
+      "400",
+      "700"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Butcherman": {
+    "family": "Butcherman",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Bayon": {
+    "family": "Bayon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Uncial+Antiqua": {
+    "family": "Uncial Antiqua",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Underdog": {
+    "family": "Underdog",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Macondo": {
+    "family": "Macondo",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Stalinist+One": {
+    "family": "Stalinist One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin",
+      "cyrillic"
+    ]
+  },
+  "Ruge+Boogie": {
+    "family": "Ruge Boogie",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Koulen": {
+    "family": "Koulen",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Fascinate+Inline": {
+    "family": "Fascinate Inline",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Diplomata+SC": {
+    "family": "Diplomata SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Almendra+SC": {
+    "family": "Almendra SC",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Bonbon": {
+    "family": "Bonbon",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Jim+Nightshade": {
+    "family": "Jim Nightshade",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Preahvihear": {
+    "family": "Preahvihear",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Siemreap": {
+    "family": "Siemreap",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Unlock": {
+    "family": "Unlock",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Taprom": {
+    "family": "Taprom",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Metal": {
+    "family": "Metal",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Erica+One": {
+    "family": "Erica One",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ]
+  },
+  "Hanalei+Fill": {
+    "family": "Hanalei Fill",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Chenla": {
+    "family": "Chenla",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  },
+  "Hanalei": {
+    "family": "Hanalei",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Plaster": {
+    "family": "Plaster",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Almendra+Display": {
+    "family": "Almendra Display",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fruktur": {
+    "family": "Fruktur",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Warnes": {
+    "family": "Warnes",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "latin-ext",
+      "latin"
+    ]
+  },
+  "Fasthand": {
+    "family": "Fasthand",
+    "variants": [
+      "400"
+    ],
+    "subsets": [
+      "khmer"
+    ]
+  }
+}

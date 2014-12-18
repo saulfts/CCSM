@@ -1,0 +1,273 @@
+/**
+*	@version	$Id: omgmenu.css 45 2013-04-11 09:45:18Z linhnt $
+*	@package	OMG Template Framework for Joomla! 2.5
+*	@subpackage	mod_omgmenu
+*	@copyright	Copyright (C) 2009 - 2013 Omegatheme. All rights reserved.
+*	@license	GNU/GPL version 2, or later
+*	@website:	http://www.omegatheme.com
+*	Support Forum - http://www.omegatheme.com/forum/
+*/
+
+/* this for dropdown on desktop */
+
+.otmenu-desk-wrapper * {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box; /* Firefox 28 and earlier*/
+	-webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+}
+.otmenu-desk-wrapper .ot-menu, 
+.otmenu-desk-wrapper .ot-menu ul{
+	padding: 0;
+	margin: 0;
+}
+.otmenu-desk-wrapper .ot-menu ul,
+.otmenu-desk-wrapper .ot-menu{
+	list-style: none;
+}
+.otmenu-desk-wrapper .ot-menu li {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.otmenu-desk-wrapper .ot-menu li li{
+    cursor: pointer;
+    display: block;
+}
+.otmenu-desk-wrapper .ot-menu li.divider,
+.otmenu-desk-wrapper .ot-menu li.separator {
+	cursor: default;
+}
+
+.otmenu-desk-wrapper .ot-menu li a,
+.otmenu-desk-wrapper .ot-menu li a:hover {
+	text-decoration: none;
+}
+.otmenu-desk-wrapper .ot-menu li img,
+.otmenu-desk-wrapper .ot-menu li a img{
+	max-height: 150px;
+	max-width: 95%;
+}
+.ot-menu img.item-icon {
+    max-height: 80px !important;
+    max-width: 80px !important;
+}
+.otmenu-desk-wrapper .ot-menu li li a{
+	display: block;
+}
+/*================= root level 1 ===============*/
+/* level 1 general */
+.otmenu-desk-wrapper .ot-menu li.level1{
+	float: left;
+}
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.level1,
+.rtl .otmenu-desk-wrapper .ot-menu li.level1{
+	float: right;
+}
+
+/* level 1 typo */
+
+.otmenu-desk-wrapper .ot-menu li.level1{
+	border: 0 none; 
+}
+.otmenu-desk-wrapper .ot-menu a.level1 {
+    display: block;
+    margin: 0;
+	padding: 10px; 
+}
+.otmenu-desk-wrapper .ot-menu a.level1 span{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* level 1 sub */
+
+.otmenu-desk-wrapper .ot-menu .submenu-wrap {
+	float: left;
+	margin: 0;
+	padding: 0;
+	
+	position: absolute;
+	/*left: -999em;*/
+	top: 0.1em;
+	z-index: 9999;
+	
+	display: none;
+	visibility: hidden;
+	
+}
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu .submenu-wrap {
+	float: right;
+}
+
+.otmenu-desk-wrapper .ot-menu .submenu-wrap-ii {
+	margin: 0;
+	padding: 0;
+}
+
+/* level 1 sub drop action */
+.otmenu-desk-wrapper .ot-menu li.hover .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu li:hover .submenu-wrap{
+	left: auto;
+}
+
+/* ------ The sub --------*/
+
+/* the sub notColumn */
+
+/* .otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap .submenu-wrap{
+	position: absolute;
+} */
+.otmenu-desk-wrapper .ot-menu .notColumn li:hover .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .notColumn li.hover .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li:hover .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li.hover .submenu-wrap{
+	/* left: 200px; */
+	position: absolute;
+	/* top: 0.1em; */
+}
+
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu .notColumn li:hover .submenu-wrap,
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu .notColumn li.hover .submenu-wrap,
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li:hover .submenu-wrap,
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li.hover .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu .notColumn li:hover .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu .notColumn li.hover .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li:hover .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu .notColumn .submenu-wrap li.hover .submenu-wrap{
+	/* right: 200px; */
+}
+
+.otmenu-desk-wrapper .ot-menu .hasColumn .submenu-column .notColumn > .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .hasColumn:hover .submenu-column .notColumn > .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu .hasColumn.hover .submenu-column .notColumn > .submenu-wrap {
+	position: absolute;
+	display: none;
+	padding: auto;
+	border: 1px solid #DDDDDD;
+}
+
+/* li hasColumn */
+.otmenu-desk-wrapper .ot-menu li.hasColumn {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.hasColumn,
+.rtl .otmenu-desk-wrapper .ot-menu li.hasColumn {
+	float: right;
+}
+.otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column,
+.rtl .otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column {
+	float: right;
+}
+.otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu li.hasColumn:hover .submenu-column .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu li.hasColumn.hover .submenu-column .submenu-wrap {
+	visibility: visible;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.hasColumn:hover .submenu-column .submenu-wrap,
+html[dir="rtl"] .otmenu-desk-wrapper .ot-menu li.hasColumn.hover .submenu-column .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu li.hasColumn:hover .submenu-column .submenu-wrap,
+.rtl .otmenu-desk-wrapper .ot-menu li.hasColumn.hover .submenu-column .submenu-wrap {
+	float: right;
+}
+
+/* ============ fixed right edge issue =========== */
+.submenu-wrap.edge-right {
+	/*right: auto !important;*/
+	left: auto !important;
+}
+html[dir="rtl"] .submenu-wrap.edge-left,
+.rtl .submenu-wrap.edge-left {
+	/*right: auto !important;*/
+	right: auto !important;
+}
+
+
+/* ================= General STYLE - depends on design ==============*/
+.otmenu-desk-wrapper .ot-menu li:hover {
+	background-color: #F9F9F9;
+}
+.otmenu-desk-wrapper .ot-menu li.level1 {
+	
+}
+.otmenu-desk-wrapper .ot-menu a.level1 {
+    font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+    text-transform: uppercase;
+	
+	height: 40px; /* depends on design */
+}
+.otmenu-desk-wrapper .item-desc {
+    font-size: 11px;
+    text-transform: none;
+}
+.otmenu-desk-wrapper .ot-menu .submenu-wrap {
+	border: 1px solid #ddd;
+	background: #F5F5F5;
+	border-radius: 3px;
+}
+.otmenu-desk-wrapper .ot-menu li.level1 > div > .submenu-wrap {
+	top: 50px; /* depends on design */
+}
+
+.otmenu-desk-wrapper .ot-menu .submenu-wrap-ii {
+
+}
+.otmenu-desk-wrapper .ot-menu li li{
+	/* border-top: 1px solid #ddd; */
+}
+.otmenu-desk-wrapper .ot-menu li li.first {
+	border-top: 1px none;
+}
+.otmenu-desk-wrapper .ot-menu li.hasColumn {
+	border-top: 1px none;
+	background-color: transparent;
+}
+.otmenu-desk-wrapper .ot-menu .submenu-column a {
+	background-color: transparent;
+}
+.otmenu-desk-wrapper li.hasColumn .columnTitle {
+	font-weight: bold;
+}
+.otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column {
+	background-color: #EEE;
+}
+.otmenu-desk-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu li.hasColumn:hover .submenu-column .submenu-wrap,
+.otmenu-desk-wrapper .ot-menu li.hasColumn.hover .submenu-column .submenu-wrap {
+	border: 0 none;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.otmenu-desk-wrapper .ot-menu li li {
+	background-color: #FFF;
+	border-radius: 3px;
+	margin: 2px 0;
+}
+.otmenu-desk-wrapper .ot-menu li li a,
+.otmenu-desk-wrapper .ot-menu li li .item-separator,
+.otmenu-desk-wrapper .ot-menu li li .nav-header {
+	padding: 3px;
+	display: block;
+}
+
+/* END */

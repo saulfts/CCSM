@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="3.0" method="upgrade">
+    <name>OT SmartSolution Joomla Template</name>
+    <creationDate>Jul 2014</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2009-2014 OmegaTheme, NetQ Creative Software Co., Ltd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<packagename>smartsolutions</packagename>
+	<version>1.0</version>
+	<url>http://www.omegatheme.com</url>
+	<packager>OmegaTheme.com</packager>
+	<packagerurl>http://www.omegatheme.com/joomla/templates/</packagerurl>
+	<description>
+	<![CDATA[ OT SmartSolution - Corporate | Portfolio template for Joomla! 3.x. Powered by JARVIS template framework for Joomla! ]]>
+	</description>
+	<update>http://www.omegatheme.com</update>
+    <scriptfile>install.script.php</scriptfile>
+	<files folder="files">
+		<file type="plugin" id="jarvis" group="system">plg_jarvis.zip</file>
+		<file type="plugin" id="omgmenu" group="system">plg_omgmenu.zip</file>
+		<file type="template" id="ot_smartsolutions" client="site">ot_smartsolutions.zip</file>
+		<file type="module" id="mod_omgmenu" client="site">mod_omgmenu.zip</file>
+	</files>
+</extension>

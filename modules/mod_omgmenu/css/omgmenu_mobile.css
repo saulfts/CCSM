@@ -1,0 +1,183 @@
+/**
+*	@version	$Id: omgmenu_mobile.css 45 2013-04-11 09:45:18Z linhnt $
+*	@package	OMG Template Framework for Joomla! 2.5
+*	@subpackage	mod_omgmenu
+*	@copyright	Copyright (C) 2009 - 2013 Omegatheme. All rights reserved.
+*	@license	GNU/GPL version 2, or later
+*	@website:	http://www.omegatheme.com
+*	Support Forum - http://www.omegatheme.com/forum/
+*/
+
+/* this for sliding menu on tablet and mobile */
+
+.otmenu-mobile-wrapper {
+	position: relative;
+}
+
+.otmenu-mobile-wrapper .btn-navbar {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+    float: right;
+	margin: 0.4em 0.4em 1em;
+    padding: 7px 10px;
+}
+.rtl .otmenu-mobile-wrapper .btn-navbar {
+	float: left;
+}
+.otmenu-mobile-wrapper .btn-navbar .icon-bar {
+    background-color: #000000;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 2px;
+    width: 18px;
+}
+.otmenu-mobile-wrapper .btn-navbar .icon-bar + .icon-bar {
+    margin-top: 3px;
+}
+
+.otmenu-mobile-wrapper .otmenu-wrapper-i {
+	padding: 0.3em;
+}
+.otmenu-mobile-wrapper .ot-sliding {
+	overflow: hidden; /* prevent IE9 still show items when collapse ( height is 0) */
+}
+.otmenu-mobile-wrapper .ot-menu, 
+.otmenu-mobile-wrapper .ot-menu ul{
+	padding: 0;
+	margin: 0;
+}
+.otmenu-mobile-wrapper .ot-menu ul,
+.otmenu-mobile-wrapper .ot-menu{
+	list-style: none;
+}
+.otmenu-mobile-wrapper .ot-menu li {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.otmenu-mobile-wrapper .ot-menu li li{
+    cursor: pointer;
+    display: block;
+}
+.otmenu-mobile-wrapper .ot-menu li.divider,
+.otmenu-mobile-wrapper .ot-menu li.separator {
+	cursor: default;
+}
+.otmenu-mobile-wrapper .ot-menu a,
+.otmenu-mobile-wrapper .ot-menu > a:hover {
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	
+	text-decoration: none;
+}
+
+.otmenu-mobile-wrapper .ot-menu li > img,
+.otmenu-mobile-wrapper .ot-menu li > a > img{
+	max-height: 150px;
+	max-width: 95%;
+}
+
+.otmenu-mobile-wrapper .ot-menu .toogle-btn {
+    float: right;
+	clear: right;
+	
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+.rtl .otmenu-mobile-wrapper .ot-menu .toogle-btn {
+	float: left;
+	clear: left;
+}
+
+.otmenu-mobile-wrapper .ot-menu .submenu-wrap {
+	margin: 0;
+	padding: 0;
+	
+	/* display: none;
+	visibility: hidden; */
+}
+
+.otmenu-mobile-wrapper .ot-menu .submenu-wrap.open,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn.open .submenu-column .submenu-wrap {
+	display: block;
+}
+
+.otmenu-mobile-wrapper .ot-menu .submenu-wrap-ii {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ================= General STYLE - depends on design ==============*/
+.otmenu-mobile-wrapper .ot-menu li,
+.otmenu-mobile-wrapper .ot-menu li:first-child,
+.otmenu-mobile-wrapper .ot-menu.panel-group  .panel + .panel{
+	background-color: #FFF;
+	border-radius: 3px;
+	margin: 1px 0;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+}
+.otmenu-mobile-wrapper .level1 > .item-text {
+	text-transform: uppercase;
+}
+.otmenu-mobile-wrapper .ot-menu a {
+	padding: 3px;
+	font-weight: normal;
+	line-height: 2em;
+}
+.otmenu-mobile-wrapper .item-desc {
+    font-size: 11px;
+    text-transform: none;
+}
+.otmenu-mobile-wrapper .ot-menu li:hover {
+	background-color: #FAFAFA;
+}
+.otmenu-mobile-wrapper .ot-menu li.hasColumn {
+	background-color: #FFF;
+}
+.otmenu-mobile-wrapper li.hasColumn .columnTitle {
+	font-weight: bold;
+}
+.otmenu-mobile-wrapper .ot-menu .submenu-wrap {
+	border: 1px solid #ddd;
+	background: #F5F5F5;
+	border-radius: 3px;
+	margin: 2px 5px;
+	padding: 1px 2px;
+}
+.otmenu-mobile-wrapper .ot-menu .submenu-wrap-ii {
+
+}
+.otmenu-mobile-wrapper .ot-menu li li{
+
+}
+.otmenu-mobile-wrapper .ot-menu li li.first {
+
+}
+
+.otmenu-mobile-wrapper .ot-menu .toogle-btn {
+	margin: 2px 4px;
+}
+.rtl .otmenu-mobile-wrapper .ot-menu .toogle-btn {
+}
+
+.otmenu-mobile-wrapper .ot-menu li.hasColumn {
+
+}
+.otmenu-mobile-wrapper .ot-menu li.hasColumn .submenu-column .submenu-wrap,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn:hover .submenu-column .submenu-wrap,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn.hover .submenu-column .submenu-wrap {
+	border: 0 none;
+}
+.otmenu-mobile-wrapper .ot-menu li.hasColumn li.notColumn > .submenu-wrap,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn:hover li.notColumn > .submenu-wrap,
+.otmenu-mobile-wrapper .ot-menu li.hasColumn.hover li.notColumn > .submenu-wrap {
+	display: none;
+	
+}
+
+/* END */
