@@ -1,0 +1,48 @@
+.jarvis-section {
+	@extend %clear-after;
+
+	border-bottom: 1px solid #eee;
+	padding: 40px;
+
+	.jarvis-section-header {
+		margin: -40px -40px 40px;
+		padding: 20px 40px 10px;
+		border-bottom: 1px solid $jarvis-border-color;
+		border-top: 1px solid $jarvis-border-color;
+		background: #efefef;
+
+		h3, p {
+			margin: 0;
+		}
+		h3 {
+			font-size: 15px;
+			margin-bottom: 5px;
+		}
+		p {
+			font-size: 11px;
+			color: #666;
+		}
+	}
+
+	&:first-child {
+		.jarvis-section-header {
+			border-top: 0px;
+		}
+	}
+
+	> .jarvis-label {
+		width: 15%;
+		float: left;
+		clear: left;
+		font-weight: normal;
+	}
+
+	&.jarvis-section-empty {
+		padding-bottom: 0;
+		border-bottom: none;
+		
+		> .jarvis-section-header {
+			margin-bottom: 0;
+		}
+	}
+}

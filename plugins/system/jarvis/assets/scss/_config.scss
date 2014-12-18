@@ -1,0 +1,31 @@
+$jarvis-font: 14px Arial, sans-serif;
+$jarvis-color: #555;
+$jarvis-lineheight: 1.6em;
+
+$jarvis-radius: 2px;
+$jarvis-border-color: #ccc;
+
+/**
+ * Tabs config
+ */
+$jarvis-tabs-border: 1px;
+$jarvis-tabs-color:
+	#e5e5e5,
+	#afafaf,
+	#5bb75b;
+
+/**
+ * Button configuration
+ */
+$jarvis-buttons: (
+	red #d9534f #fff,
+	blue #428bca #fff,
+	green #5cb85c #fff
+);
+
+/**
+ * Administrator Icons
+ */
+$jarvis-icons-url: url(../img/admin-icons.png);
+$jarvis-icons-size: 24px;
+$jarvis-icons: overview, image, style, layout, gear, menu, copy, remove, edit, config;

@@ -1,0 +1,73 @@
+fieldset {
+	@extend %reset;
+
+	border: none;
+}
+
+.jarvis-label {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 0;
+}
+
+.jarvis-fields {
+	float: left;
+	width: 85%;
+
+	.jarvis-fields {
+		width: auto;
+		float: none;
+	}
+}
+
+.jarvis-field {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.jarvis-fields-inline {
+	.jarvis-field {
+		clear: none;
+		float: left;
+		margin-left: 5px;
+
+		&:first-child {
+			margin-left: 0;
+			clear: left;
+		}
+	}
+
+	@extend %clear-after;
+}
+
+.jarvis-fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+
+	legend {
+		font-size: 12px;
+		font-weight: bold;
+		color: #666;
+		line-height: 25px;
+		margin: 0;
+		border: none;
+	}
+
+	.jarvis-fields {
+		width: auto;
+	}
+}
+
+.jarvis-fieldset-inline {
+	.jarvis-fieldset {
+		float: left;
+		margin-left: 40px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	@extend %clear-after;
+}

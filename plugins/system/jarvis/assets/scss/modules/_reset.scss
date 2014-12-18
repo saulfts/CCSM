@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+
+%reset {
+	margin: 0;
+	padding: 0;
+}
+
+%no-list-style {
+	list-style: none;
+}

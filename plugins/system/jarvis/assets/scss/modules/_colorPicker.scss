@@ -1,0 +1,49 @@
+.jarvis-color-picker {
+	@extend .jarvis-input;
+	@extend %clear-after;
+
+	padding: 1px;
+	position: relative;
+
+	button, input {
+		border-radius: 0;
+		height: 28px;
+		float: left;
+	}
+	input {
+		@extend .jarvis-input;
+		width: 65px;
+		border-color: #ddd;
+	}
+	button {
+		border: 1px solid #000;
+		position: relative;
+		width: 28px;
+		clear: left;
+		margin-right: 1px;
+
+		&:hover {
+			border-color: #000;
+		}
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: block;
+		}
+		&:before {
+			background: #000;
+			width: 11px;
+			height: 11px;
+		}
+		&:after {
+			border: 4px solid transparent;
+			border-top-color: #fff;
+			top: 3px;
+			right: 1px;
+		}
+	}
+}

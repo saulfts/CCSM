@@ -1,0 +1,164 @@
+/**
+ * @package     Jarvis
+ *
+ * @copyright   Copyright (C) 2009 - 2014 Omegatheme.com. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE
+ * @website:	http://www.omegatheme.com
+ *	Support Forum - http://www.omegatheme.com/forum/
+ * 
+ * @version	$Id: style-switcher.css 37 2014-09-11 07:29:22Z linhnt $
+ */
+#style-switcher,
+#style-switcher *, #style-switcher:before, #style-switcher:after,
+#style-switcher *:before,
+#style-switcher *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#style-switcher {
+  width: 184px;
+  position: fixed;
+  z-index: 1;
+  padding: 22px;
+  top: 25%;
+  left: -184px;
+  background: #333;
+  color: #ccc;
+  /* -o-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s; */
+}
+#style-switcher h3 {
+  color: #ccc;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+#style-switcher label {
+  font: 13px Arial;
+  color: #ccc;
+}
+#style-switcher label input {
+  display: none;
+}
+#style-switcher select {
+  color: #333;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  height: 30px;
+  padding: 5px 7px;
+}
+#style-switcher select:focus, #style-switcher select:active {
+  outline: none;
+}
+#style-switcher.active {
+    /* -o-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+		transform: translateX(0); */
+  left: 0;
+}
+#style-switcher.active .toggler i {
+  color: #FFF;
+  -webkit-animation: spin 5s infinite linear;
+  -moz-animation: spin 5s infinite linear;
+  -o-animation: spin 5s infinite linear;
+  animation: spin 5s infinite linear;
+}
+#style-switcher .toggler {
+  display: block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  right: -45px;
+  background: #333;
+  border: none;
+  border-radius: 0;
+  line-height: 50px;
+}
+#style-switcher .toggler i {
+  font-size: 18px;
+}
+#style-switcher .toggler:focus, #style-switcher .toggler:active {
+  outline: none;
+}
+#style-switcher .reset {
+  background: #555;
+  color: #fff;
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+#style-switcher .switcher-toolbar {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+#style-switcher .schemes-list {
+  margin-bottom: -10px;
+}
+#style-switcher .schemes-list span,
+#style-switcher .background-patterns span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 6px 4px 0;
+}
+#style-switcher .schemes-list input:checked + span,
+#style-switcher .background-patterns input:checked + span {
+  border: 2px solid #fff;
+  box-shadow: inset 1px 1px 0 #333, inset -1px -1px 0 #333;
+}
+#style-switcher .schemes-list label:nth-of-type(4n) span,
+#style-switcher .background-patterns label:nth-of-type(4n) span {
+  margin-right: 0;
+}
+#style-switcher .layout-style,
+#style-switcher .background-patterns {
+  margin-top: 13px;
+}
+
+html[dir="rtl"] #style-switcher {
+  right: -184px;
+  left: auto;
+  /* -o-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%); */
+}
+html[dir="rtl"] #style-switcher.active {
+  /* -o-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0); */
+  right: 0;
+}
+html[dir="rtl"] #style-switcher .toggler {
+  right: 184px;
+}
+html[dir="rtl"] #style-switcher .schemes-list span,
+html[dir="rtl"] #style-switcher .background-patterns span {
+  margin: 0 0px 4px 6px;
+}
+html[dir="rtl"] #style-switcher label:nth-of-type(4n) span {
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=style-switcher.css.map */

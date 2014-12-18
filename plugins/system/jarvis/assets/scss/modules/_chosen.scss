@@ -1,0 +1,23 @@
+.jarvis-field {
+	.chosen-single {
+		border-radius: 2px;
+		background: #fff;
+		height: 32px;
+		box-shadow: none;
+		border-color: #ccc;
+	}
+	.chosen-container-single .chosen-single div b {
+		background-position: 0 5px;
+	}
+	.chosen-container-active.chosen-with-drop .chosen-single div b {
+		background-position: -18px 5px;
+	}
+	.chosen-container-single .chosen-single span {
+		line-height: 30px;
+	}
+	.chosen-container-single .chosen-drop {
+		border-radius: 0 0 2px 2px;
+		border-color: #ccc;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	}
+}

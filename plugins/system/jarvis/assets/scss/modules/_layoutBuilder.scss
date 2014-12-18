@@ -1,0 +1,650 @@
+.jarvis-reset {
+  padding: 0;
+  margin: 0;
+}
+
+.jarvis-clearfix,
+.jarvis-row {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.jarvis-layout-toolbar {
+	width: 100%;
+  padding: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.jarvis-layout-container {
+	width: 100%;
+	min-height: 500px;
+  font: 12px arial;
+  padding: 40px;
+  padding-top: 20px;
+  background: #e8e8e8;
+  
+  > button {
+    border: 1px dashed #c2c2c2;
+    background: #d7d7d7;
+    border-radius: 5px;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    
+    &:hover {
+      border-style: solid;
+      background: darken(#d7d7d7, 1%);
+    }
+    &:active {
+      box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+      background: darken(#d7d7d7, 1%);
+    }
+  }
+
+  &[data-screen-size="xsmall"] .jarvis-layout-section,
+  &[data-screen-size="xsmall"] > button {
+  	max-width: 500px;
+  }
+  &[data-screen-size="small"] .jarvis-layout-section,
+  &[data-screen-size="small"] > button {
+  	max-width: 768px;
+  }
+  &[data-screen-size="medium"] .jarvis-layout-section,
+  &[data-screen-size="medium"] > button {
+  	max-width: 960px;
+  }
+}
+
+.jarvis-toolbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/toolbox-icons.png) no-repeat;
+  
+  $icons: (view, edit, add-column, add-row, move, map-position, resize, remove, drag, split-column, split-row, enter, layout);
+  
+  @for $iconIndex from 1 through length($icons) {
+    $icon: nth($icons, $iconIndex);
+    $iconX: -($iconIndex - 1) * 16px;
+    
+    &[data-icon="#{$icon}"] {
+    	&:before,
+    	&:after {
+    		content: none;
+    	}
+    	
+      background-position: $iconX 0;
+    }
+  }
+}
+
+.jarvis-row,
+.jarvis-column {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+.jarvis-layout-section-header,
+.jarvis-row-header,
+.jarvis-column-header {
+  height: 25px;
+  cursor: move;
+  
+  button {
+    background: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+    float: left;
+    display: none;
+    margin: 0;
+  }
+  
+  .jarvis-layout-toolbox {
+    float: right;
+    display: none;
+  }
+  
+  @extend .jarvis-clearfix;
+}
+
+.jarvis-layout-section:hover > .jarvis-layout-section-header,
+.jarvis-column-wrap:hover > .jarvis-column-header {
+  button, .jarvis-layout-toolbox {
+    display: block;
+  }
+}
+
+.jarvis-layout-section-content,
+.jarvis-row-content,
+.jarvis-column-content {
+  @extend .jarvis-clearfix;
+  
+  min-height: 70px;
+}
+
+.jarvis-row {
+  margin: 10px 0;
+
+  .jarvis-row-content {
+    padding: 5px 10px;
+    margin: 0 -5px;
+  }
+}
+
+.jarvis-column {
+  float: left;
+  width: 100%;
+}
+
+.jarvis-layout-container[data-screen-size="large"] {
+	@for $index from 1 through 12 {
+    .jarvis-column[data-large-width="#{$index}"] {
+      width: 100%/12 * $index;
+    }
+  }
+}
+.jarvis-layout-container[data-screen-size="medium"] {
+	@for $index from 1 through 12 {
+    .jarvis-column[data-medium-width="#{$index}"] {
+      width: 100%/12 * $index;
+    }
+  }
+}
+.jarvis-layout-container[data-screen-size="small"] {
+	@for $index from 1 through 12 {
+    .jarvis-column[data-small-width="#{$index}"] {
+      width: 100%/12 * $index;
+    }
+  }
+}
+.jarvis-layout-container[data-screen-size="xsmall"] {
+	@for $index from 1 through 12 {
+    .jarvis-column[data-xsmall-width="#{$index}"] {
+      width: 100%/12 * $index;
+    }
+  }
+}
+
+// First level row
+.jarvis-layout-section {
+  @extend .jarvis-row;
+
+  background: #d7d7d7;
+  border-radius: 5px;
+  
+  .jarvis-layout-section-header {
+    background: #ccc;
+    border-radius: 5px 5px 0 0;
+  }
+  .jarvis-layout-section-content {
+    padding: 25px 30px;
+  }
+}
+
+// First level column
+.jarvis-layout-container .jarvis-column {
+  padding: 5px;
+  position: relative;
+
+  .ui-resizable-handle {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	right: -6px;
+  	width: 10px;
+		cursor: e-resize;
+
+		&:before,
+		&:after {
+			content: '';
+			display: none;
+			width: 4px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -3px;
+		}
+
+		&:before {
+			border: 4px solid #bbb;
+			border-left: none;
+			border-right: none;
+			height: 16px;
+			margin-top: -8px;
+		}
+
+		&:after {
+			height: 4px;
+			background: #bbb;
+			margin-top: 16px;
+		}
+	}
+
+	&:hover,
+	&.ui-resizable-resizing {
+		> .ui-resizable-handle {
+			&:before,
+			&:after {
+				display: block;
+			}
+		}
+	}
+  
+  > .jarvis-column-wrap {
+    > .jarvis-column-header {
+      background: #b5b5b5;
+      border-radius: 3px 3px 0 0;
+    }
+    > .jarvis-column-content {
+      padding: 10px;
+    }
+
+    background: #eee;
+    border-radius: 3px;
+  }
+
+  // Inner row
+  .jarvis-row {
+    border: 1px dashed #aaa;
+    background: #ccc;
+
+    .jarvis-row-header {
+      display: none;
+      position: absolute;
+      width: 24px;
+      border: 1px solid #aaa;
+      border-left-color: #ccc;
+      right: -24px;
+      top: -1px;
+      background: #ccc;
+      z-index: 1;
+    }
+
+    &:hover {
+      position: relative;
+      border-style: solid;
+
+      .jarvis-row-header {
+        display: block;
+        height: auto;
+
+        button, .jarvis-layout-toolbox {
+          display: block;
+        }
+      }
+    }
+  }
+  
+  // Inner column
+  .jarvis-column {
+    padding: 2px;
+
+    > .jarvis-column-wrap {
+      background: #eee;
+
+      > .jarvis-column-header {
+        border-radius: 0;
+
+        button[data-command="addColumn"],
+        button[data-command="addRow"] {
+          display: none;
+        }
+      }
+
+      border-radius: 0;
+    }
+
+    .ui-resizable-handle {
+    	&:before {
+    		display: none;
+    	}
+    	&:after {
+    		width: 3px;
+    		height: 30px;
+    		margin-top: -15px;
+    		background: #a5a5a5;
+    	}
+    }
+  }
+  
+  .jarvis-column-content {
+    > .jarvis-row {
+      &:first-child {
+        margin-top: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.jarvis-column.jarvis-has-items {
+  > .jarvis-column-wrap {
+    > .jarvis-column-header {
+      button[data-command="mapPosition"] {
+        display: none;
+      }
+    }
+  }
+}
+.jarvis-column[data-position] {
+	&:after {
+		content: attr(data-position);
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+
+	> .jarvis-column-wrap {
+		> .jarvis-column-header {
+			button[data-command="addColumn"],
+			button[data-command="addRow"] {
+				display: none;
+			}
+		}
+	}
+}
+.jarvis-column[data-position="component"] > .jarvis-column-wrap {
+	border: 1px solid #6B90B9;
+
+	> .jarvis-column-header {
+		background: #8CC0E2;
+	}
+}
+.jarvis-column[data-position="system-message"] > .jarvis-column-wrap {
+	border: 1px solid #FF7000;
+
+	> .jarvis-column-header {
+		background: #E9CAA8;
+	}
+}
+
+.jarvis-layout-confirm {
+	display: none;
+}
+
+.jarvis-layout-builder[data-layout-changed="yes"] {
+	position: relative;
+
+ .jarvis-layout-confirm {
+		display: block;
+		position: absolute;
+
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+
+		background: rgba(255, 255, 255, 0.5);
+		padding: 80px 20px;
+
+		text-align: center;
+		z-index: 999;
+
+		p:first-child {
+			background: #fff;
+			padding: 30px 50px 80px;
+			width: 600px;
+			margin: 0 auto -70px auto;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		}
+	}
+}
+
+.jarvis-row[data-column-count="6"],
+.jarvis-layout-section[data-column-count="6"] {
+	> .jarvis-layout-section-header button[data-command="addColumn"],
+	> .jarvis-row-header button[data-command="addColumn"] {
+		display: none;
+	}
+}
+
+#jarvis-layout-map-position select[name="position"] {
+	height: auto;
+}
+#jarvis-layout-map-position input[name="position-filter"] {
+	width: 337px;
+}
+
+#jarvis-layout-section-edit,
+#jarvis-layout-column-edit {
+	.jarvis-label {
+		float: left;
+		width: 120px;
+		margin-left: -120px;
+	}
+	.jarvis-field {
+		@extend %clear-after;
+
+		position: relative;
+		padding-left: 120px;
+	}
+	.jarvis-color-picker button {
+		clear: none;
+	}
+	.jarvis-color-picker {
+		display: inline-block;
+	}
+	.jarvis-buttonset .ui-button {
+		width: auto;
+	}
+
+	#custom-background,
+	#visibility {
+		border-top: 1px solid #eee;
+		margin: 20px -40px 0;
+		padding: 15px 40px 0;
+	}
+	legend {
+		font-size: 12px;
+		color: #ccc;
+		margin: 0 0 0 -6px;
+		padding: 0 5px;
+		border: none;
+		width: auto;
+	}
+}
+
+#jarvis-layout-row-edit {
+	.jarvis-tabs-nav {
+		margin-top: -1px;
+
+		.ui-tabs-nav {
+			text-align: center;
+
+			> li {
+				float: none;
+				display: inline-block;
+			}
+		}
+		a {
+			padding: 0 25px;
+			height: 45px;
+			line-height: 45px;
+		}
+	}
+	.jarvis-tab-page {
+		border-left: none;
+		border-right: none;
+		border-bottom-color: #f5f5f5;
+	}
+
+	.jarvis-layout-container {
+		padding: 0;
+		background: transparent;
+		min-height: 0;
+	}
+	.jarvis-row {
+		margin: 5px 0;
+		padding-left: 50px;
+		background: #f8f8f8;
+		border-radius: 2px;
+	}
+	.jarvis-row-content {
+		padding: 0;
+		margin: 0;
+		position: relative;
+		min-height: 0;
+	}
+	.jarvis-columns-count {
+		display: block;
+		position: absolute;
+		font: 25px Georgia, Times New Roman;
+		color: #999;
+		width: 50px;
+		left: -50px;
+		top: 0;
+		bottom: 0;
+		text-align: center;
+		line-height: 50px;
+	}
+	.jarvis-column-wrap {
+		background: #fff;
+		border: 1px solid #ccc;
+		border-radius: 1px;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	}
+	.jarvis-column-content {
+		min-height: 45px;
+	}
+	.jarvis-column .ui-resizable-handle {
+		right: 5px;
+
+		&:before,
+		&:after {
+			width: 3px;
+		}
+
+		&:before {
+			border: 3px solid #ddd;
+			border-left: none;
+			border-right: none;
+			height: 12px;
+			margin-top: -10px;
+		}
+
+		&:after {
+			height: 3px;
+			background: #ddd;
+			margin-top: 8px;
+		}
+	}
+
+	.jarvis-column:after {
+		content: '';
+		display: block;
+		width: 50px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -15px 0 0 -25px;
+	}
+
+	div[data-screen-size="large"] {
+		.jarvis-column:after {
+			content: attr(data-large-width);
+		}
+	}
+	div[data-screen-size="medium"] {
+		.jarvis-column:after {
+			content: attr(data-medium-width);
+		}
+	}
+	div[data-screen-size="small"] {
+		.jarvis-column:after {
+			content: attr(data-small-width);
+		}
+	}
+	div[data-screen-size="xsmall"] {
+		.jarvis-column:after {
+			content: attr(data-xsmall-width);
+		}
+	}
+
+	@for $i from 1 through 6 {
+		div[data-column-count="#{$i}"] {
+			> .jarvis-row:nth-child(#{$i}) {
+				background: #CFF0FF;
+			}
+		}
+	}
+
+	form .jarvis-section:first-child {
+		max-height: 500px;
+		overflow: auto;
+	}
+}
+
+#jarvis-restore-settings {
+	form,
+	.jarvis-section {
+		margin: 0;
+		text-align: center;
+		border: none;
+		position: relative;
+	}
+	.jarvis-section:after {
+		content: '';
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: url(../img/loader.gif) no-repeat center center;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: all 0.2s ease-in-out 0s;
+	}
+	.jarvis-button {
+		transition: all 0.2s ease-in-out 0s;
+		width: 200px;
+		height: 50px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		line-height: 50px;
+
+		input {
+			opacity: 0;
+			position: absolute;
+			transform: scale(3);
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+	}
+	iframe {
+		visibility: hidden;
+		position: absolute;
+		top: -100%;
+	}
+
+	&.jarvis-processing {
+		.jarvis-button {
+			transform: translateY(-100%);
+			opacity: 0;
+		}
+		.jarvis-section:after {
+			top: 50%;
+			opacity: 1;
+		}
+	}
+}

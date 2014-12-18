@@ -1,0 +1,1763 @@
+/**
+ * @package     Jarvis
+ *
+ * @copyright   Copyright (C) 2009 - 2014 Omegatheme.com. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE
+ * @website:	http://www.omegatheme.com
+ *	Support Forum - http://www.omegatheme.com/forum/
+ * 
+ * @version	$Id: admin.css 34 2014-08-30 05:08:31Z linhnt $
+ */
+.jarvis {
+  /**
+   * Tabs config
+   */
+  /**
+   * Button configuration
+   */
+  /**
+   * Administrator Icons
+   */
+  /**
+   * Input sizes
+   */
+  /**
+   * Input addons
+   */
+  font: 14px Arial, sans-serif;
+  color: #555555;
+  line-height: 1.6em;
+}
+.jarvis *,
+.jarvis *:before,
+.jarvis *:after {
+  box-sizing: border-box;
+}
+.jarvis *:focus {
+  outline: none;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav .ui-tabs-nav, .jarvis input[type="text"],
+.jarvis input[type="email"],
+.jarvis input[type="password"],
+.jarvis textarea,
+.jarvis select, .jarvis fieldset, .jarvis .jarvis-style-editor .jarvis-editor-item h3, .jarvis .jarvis-style-editor .jarvis-editor-item ul, .jarvis .jarvis-menus-assignment,
+.jarvis .jarvis-menus-assignment ul, .jarvis .jarvis-menu-type-header,
+.jarvis .jarvis-menu-item, .jarvis .jarvis-menu-type-header label,
+.jarvis .jarvis-menu-item label {
+  margin: 0;
+  padding: 0;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav .ui-tabs-nav, .jarvis .jarvis-style-editor .jarvis-editor-item ul, .jarvis .jarvis-menus-assignment,
+.jarvis .jarvis-menus-assignment ul {
+  list-style: none;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav .ui-tabs-nav:after, .jarvis .jarvis-input-group:after, .jarvis .jarvis-section:after, .jarvis .jarvis-fields-inline:after, .jarvis .jarvis-fieldset-inline:after, .jarvis .jarvis-color-picker:after, .jarvis .jarvis-image-options:after, .jarvis .jarvis-style-editor .jarvis-editor-item:after, .jarvis .jarvis-style-editor .jarvis-editor-item ul:after, .jarvis .jarvis-style-editor .jarvis-editor-header:after, .jarvis .jarvis-dialog:after, .jarvis #jarvis-layout-section-edit .jarvis-field:after,
+.jarvis #jarvis-layout-column-edit .jarvis-field:after, .jarvis[data-edition="free"] [data-require-edition="pro"]:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.jarvis .jarvis-triangle-down {
+  display: inline-block;
+}
+.jarvis .jarvis-triangle-down:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  border: 5px solid transparent;
+  border-top-color: #000;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav ul, .jarvis .jarvis-tabs > .jarvis-tabs-nav li {
+  list-style: none;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav .ui-state-default {
+  border: 1px solid #e5e5e5;
+  background: #fcfcfc;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav .ui-state-active {
+  background: #fff;
+  border-color: #afafaf;
+  position: relative;
+  z-index: 1;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav a {
+  display: block;
+  padding: 5px 10px;
+  color: #555555;
+  text-decoration: none;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-nav a:hover {
+  color: #080808;
+  text-decoration: none;
+}
+.jarvis .jarvis-tabs > .jarvis-tabs-pages > .jarvis-tab-page {
+  border: 1px solid #afafaf;
+  background: #fff;
+  padding: 10px;
+}
+.jarvis .jarvis-tabs-indicator > .jarvis-tabs-nav .ui-state-active:after, .jarvis .jarvis-tabs-indicator > .jarvis-tabs-nav .ui-state-active:before {
+  position: absolute;
+  display: block;
+  content: '';
+  border: 10px solid transparent;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-top > .jarvis-tabs-nav .ui-state-active {
+  border-bottom-color: #afafaf;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-top > .jarvis-tabs-nav .ui-state-active:after, .jarvis .jarvis-tabs-indicator.jarvis-tabs-top > .jarvis-tabs-nav .ui-state-active:before {
+  border-top-color: #bbb;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-top > .jarvis-tabs-nav .ui-state-active:before {
+  border-top-color: #fff;
+  bottom: -19px;
+  z-index: 2;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-top > .jarvis-tabs-pages > .jarvis-tab-page {
+  padding: 15px 10px 10px;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-left > .jarvis-tabs-nav .ui-state-active:after, .jarvis .jarvis-tabs-indicator.jarvis-tabs-left > .jarvis-tabs-nav .ui-state-active:before {
+  border-left-color: #bbb;
+  top: 50%;
+  right: -20px;
+  margin-top: -10px;
+}
+.jarvis .jarvis-tabs-indicator.jarvis-tabs-left > .jarvis-tabs-nav .ui-state-active:before {
+  border-left-color: #fff;
+  right: -19px;
+  z-index: 2;
+}
+.jarvis .jarvis-tabs-top > .jarvis-tabs-nav {
+  margin-bottom: -1px;
+  clear: left;
+}
+.jarvis .jarvis-tabs-top > .jarvis-tabs-nav .ui-state-default {
+  float: left;
+  margin-left: -1px;
+  border-bottom: 0;
+  margin-bottom: 1px;
+}
+.jarvis .jarvis-tabs-top > .jarvis-tabs-nav .ui-state-default:first-child {
+  margin-left: 0px;
+}
+.jarvis .jarvis-tabs-top > .jarvis-tabs-nav .ui-state-active {
+  border-top-color: #5bb75b;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-nav {
+  float: left;
+  width: 181px;
+  margin-right: -1px;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-nav .ui-state-default {
+  margin-top: -1px;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-nav .ui-state-default:first-child {
+  margin-top: 0;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-nav .ui-state-active {
+  border-left-color: #5bb75b;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-pages {
+  padding-left: 180px;
+}
+.jarvis .jarvis-tabs-left > .jarvis-tabs-pages > .jarvis-tab-page {
+  float: left;
+  width: 100%;
+}
+.jarvis .jarvis-tabs-small {
+  max-width: 425px;
+}
+.jarvis .jarvis-tabs-medium {
+  max-width: 600px;
+}
+.jarvis .jarvis-tabs-large {
+  max-width: 800px;
+}
+.jarvis .jarvis-input, .jarvis input[type="text"],
+.jarvis input[type="email"],
+.jarvis input[type="password"],
+.jarvis textarea,
+.jarvis select, .jarvis .jarvis-color-picker, .jarvis .jarvis-color-picker input {
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  height: 32px;
+  padding: 0 5px;
+  box-shadow: none;
+  margin: 0;
+}
+.jarvis .jarvis-input:focus, .jarvis input[type="text"]:focus,
+.jarvis input[type="email"]:focus,
+.jarvis input[type="password"]:focus,
+.jarvis textarea:focus,
+.jarvis select:focus, .jarvis .jarvis-color-picker:focus, .jarvis .jarvis-color-picker input:focus {
+  background: #fff;
+  border-color: #a9a9a9;
+  box-shadow: none;
+}
+.jarvis .jarvis-input:disabled, .jarvis input[type="text"]:disabled,
+.jarvis input[type="email"]:disabled,
+.jarvis input[type="password"]:disabled,
+.jarvis textarea:disabled,
+.jarvis select:disabled, .jarvis .jarvis-color-picker:disabled, .jarvis .jarvis-color-picker input:disabled {
+  background: #f5f5f5;
+  border-color: #e0e0e0;
+}
+.jarvis .jarvis-input-desc {
+  font-size: 11px;
+  color: #a2a2a2;
+  line-height: 16px;
+}
+.jarvis input[type="text"],
+.jarvis input[type="email"],
+.jarvis input[type="password"],
+.jarvis textarea,
+.jarvis select {
+  float: none;
+  clear: none;
+}
+.jarvis input[type="checkbox"] {
+  border: none;
+  background: transparent;
+}
+.jarvis textarea {
+  height: auto;
+  font-size: 13px;
+  font-family: arial;
+  padding: 5px;
+}
+.jarvis .jarvis-input-fit input, .jarvis .jarvis-input-fit select, .jarvis .jarvis-input-fit textarea {
+  width: 100%;
+}
+.jarvis .jarvis-input-large input, .jarvis .jarvis-input-large select, .jarvis .jarvis-input-large textarea {
+  width: 400px;
+}
+.jarvis .jarvis-input-tiny input, .jarvis .jarvis-input-tiny select, .jarvis .jarvis-input-tiny textarea {
+  width: 50px;
+}
+.jarvis .jarvis-input-group {
+  display: inline-block;
+}
+.jarvis .jarvis-input-group input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  float: left;
+}
+.jarvis .jarvis-input-group .jarvis-input-suffix {
+  display: block;
+  border: 1px solid #c6c6c6;
+  background: #fafafa;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  float: left;
+  box-shadow: none;
+  border-radius: 0;
+  height: 32px;
+  margin: 0 0 0 -1px;
+}
+.jarvis .jarvis-input-group .jarvis-input-suffix:last-child {
+  border-radius: 0 2px 2px 0;
+}
+.jarvis .jarvis-checkbox input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+.jarvis .jarvis-switcher input {
+  display: none;
+}
+.jarvis .jarvis-switcher label {
+  display: inline-block;
+  width: 45px;
+  height: 30px;
+  background: #DA6363;
+  border-radius: 2px;
+  position: relative;
+}
+.jarvis .jarvis-switcher span {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border-radius: 2px;
+  margin: 2px;
+}
+.jarvis .jarvis-switcher span:after {
+  content: '';
+  display: block;
+  width: 3px;
+  border: 1px solid #EBEBEB;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  height: 16px;
+  margin: 5px auto;
+}
+.jarvis .jarvis-switcher input:checked + label {
+  background: #5bb75b;
+}
+.jarvis .jarvis-switcher input:checked + label > span {
+  transform: translateX(15px);
+}
+.jarvis .jarvis-switcher label, .jarvis .jarvis-switcher span {
+  transition: all 0.2s ease-in-out 0s;
+}
+.jarvis .jarvis-button:active, .jarvis .jarvis-buttonset label:active, .jarvis .jarvis-buttonset .ui-state-active, .jarvis .jarvis-button:hover, .jarvis .jarvis-buttonset label:hover {
+  background: #f0f0f0;
+  border-color: #aaa;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+.jarvis .jarvis-button:active, .jarvis .jarvis-buttonset label:active, .jarvis .jarvis-buttonset .ui-state-active {
+  background: #5bb75b;
+  color: #FFF;
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.jarvis .jarvis-button, .jarvis .jarvis-buttonset label {
+  float: none;
+  clear: none;
+  background: #fafafa;
+  border: 1px solid #cccccc;
+  color: #666;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: top;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 0;
+  cursor: pointer;
+}
+.jarvis .jarvis-button.jarvis-button-red, .jarvis .jarvis-buttonset label.jarvis-button-red {
+  background: #d9534f;
+  color: white;
+  border-color: #d33632;
+}
+.jarvis .jarvis-button.jarvis-button-red:hover, .jarvis .jarvis-buttonset label.jarvis-button-red:hover, .jarvis .jarvis-button.jarvis-button-red:active, .jarvis .jarvis-buttonset label.jarvis-button-red:active {
+  background: #d43f3a;
+  border-color: #c9302c;
+}
+.jarvis .jarvis-button.jarvis-button-blue, .jarvis .jarvis-buttonset label.jarvis-button-blue {
+  background: #428bca;
+  color: white;
+  border-color: #3379b5;
+}
+.jarvis .jarvis-button.jarvis-button-blue:hover, .jarvis .jarvis-buttonset label.jarvis-button-blue:hover, .jarvis .jarvis-button.jarvis-button-blue:active, .jarvis .jarvis-buttonset label.jarvis-button-blue:active {
+  background: #357ebd;
+  border-color: #3071a9;
+}
+.jarvis .jarvis-button.jarvis-button-green, .jarvis .jarvis-buttonset label.jarvis-button-green {
+  background: #5cb85c;
+  color: white;
+  border-color: #49a749;
+}
+.jarvis .jarvis-button.jarvis-button-green:hover, .jarvis .jarvis-buttonset label.jarvis-button-green:hover, .jarvis .jarvis-button.jarvis-button-green:active, .jarvis .jarvis-buttonset label.jarvis-button-green:active {
+  background: #4cae4c;
+  border-color: #449d44;
+}
+.jarvis .jarvis-buttonset {
+  border: none;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+.jarvis .jarvis-buttonset input {
+  display: none;
+}
+.jarvis .jarvis-buttonset label {
+  border-radius: 0;
+  clear: none;
+  margin-left: -1px;
+}
+.jarvis .jarvis-buttonset label.ui-corner-left {
+  margin-left: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.jarvis .jarvis-buttonset label.ui-corner-right {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.jarvis .jarvis-buttonset .ui-state-active:hover {
+  color: #666;
+}
+.jarvis .jarvis-dropdown {
+  .position: relative;
+}
+.jarvis .jarvis-dropdown .jarvis-input, .jarvis .jarvis-dropdown input[type="text"],
+.jarvis .jarvis-dropdown input[type="email"],
+.jarvis .jarvis-dropdown input[type="password"],
+.jarvis .jarvis-dropdown textarea,
+.jarvis .jarvis-dropdown select, .jarvis .jarvis-dropdown .jarvis-color-picker, .jarvis .jarvis-dropdown .jarvis-color-picker input, .jarvis .jarvis-color-picker .jarvis-dropdown input {
+  float: left;
+  clear: left;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.jarvis .jarvis-dropdown .jarvis-button, .jarvis .jarvis-dropdown .jarvis-buttonset label, .jarvis .jarvis-buttonset .jarvis-dropdown label {
+  padding: 5px 10px 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -1px;
+}
+.jarvis .jarvis-dropdown .jarvis-dropdown-menu {
+  display: none;
+}
+.jarvis .jarvis-icon-overview:before, .jarvis .jarvis-icon-image:before, .jarvis .jarvis-icon-style:before, .jarvis .jarvis-icon-layout:before, .jarvis .jarvis-icon-gear:before, .jarvis .jarvis-icon-menu:before, .jarvis .jarvis-icon-copy:before, .jarvis .jarvis-icon-remove:before, .jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-button-icon-primary:before, .jarvis .jarvis-icon-edit:before, .jarvis .jarvis-icon-config:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  background: url(../img/admin-icons.png) no-repeat;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+.jarvis .jarvis-icon-overview:before {
+  background-position: 0px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-overview:before,
+.jarvis .jarvis-icon-overview:hover:before {
+  background-position: 0px -24px;
+}
+.jarvis .jarvis-icon-image:before {
+  background-position: -24px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-image:before,
+.jarvis .jarvis-icon-image:hover:before {
+  background-position: -24px -24px;
+}
+.jarvis .jarvis-icon-style:before {
+  background-position: -48px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-style:before,
+.jarvis .jarvis-icon-style:hover:before {
+  background-position: -48px -24px;
+}
+.jarvis .jarvis-icon-layout:before {
+  background-position: -72px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-layout:before,
+.jarvis .jarvis-icon-layout:hover:before {
+  background-position: -72px -24px;
+}
+.jarvis .jarvis-icon-gear:before {
+  background-position: -96px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-gear:before,
+.jarvis .jarvis-icon-gear:hover:before {
+  background-position: -96px -24px;
+}
+.jarvis .jarvis-icon-menu:before {
+  background-position: -120px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-menu:before,
+.jarvis .jarvis-icon-menu:hover:before {
+  background-position: -120px -24px;
+}
+.jarvis .jarvis-icon-copy:before {
+  background-position: -144px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-copy:before,
+.jarvis .jarvis-icon-copy:hover:before {
+  background-position: -144px -24px;
+}
+.jarvis .jarvis-icon-remove:before, .jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-button-icon-primary:before {
+  background-position: -168px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-remove:before, .jarvis.ui-dialog .ui-state-active .ui-dialog-titlebar .ui-button .ui-button-icon-primary:before, .jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-state-active .ui-button-icon-primary:before,
+.jarvis .jarvis-icon-remove:hover:before,
+.jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-button-icon-primary:hover:before {
+  background-position: -168px -24px;
+}
+.jarvis .jarvis-icon-edit:before {
+  background-position: -192px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-edit:before,
+.jarvis .jarvis-icon-edit:hover:before {
+  background-position: -192px -24px;
+}
+.jarvis .jarvis-icon-config:before {
+  background-position: -216px 0;
+}
+.jarvis .ui-state-active .jarvis-icon-config:before,
+.jarvis .jarvis-icon-config:hover:before {
+  background-position: -216px -24px;
+}
+.jarvis .jarvis-section {
+  border-bottom: 1px solid #eee;
+  padding: 40px;
+}
+.jarvis .jarvis-section .jarvis-section-header {
+  margin: -40px -40px 40px;
+  padding: 20px 40px 10px;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  background: #efefef;
+}
+.jarvis .jarvis-section .jarvis-section-header h3, .jarvis .jarvis-section .jarvis-section-header p {
+  margin: 0;
+}
+.jarvis .jarvis-section .jarvis-section-header h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.jarvis .jarvis-section .jarvis-section-header p {
+  font-size: 11px;
+  color: #666;
+}
+.jarvis .jarvis-section:first-child .jarvis-section-header {
+  border-top: 0px;
+}
+.jarvis .jarvis-section > .jarvis-label {
+  width: 15%;
+  float: left;
+  clear: left;
+  font-weight: normal;
+}
+.jarvis .jarvis-section.jarvis-section-empty {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.jarvis .jarvis-section.jarvis-section-empty > .jarvis-section-header {
+  margin-bottom: 0;
+}
+.jarvis fieldset {
+  border: none;
+}
+.jarvis .jarvis-label {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.jarvis .jarvis-fields {
+  float: left;
+  width: 85%;
+}
+.jarvis .jarvis-fields .jarvis-fields {
+  width: auto;
+  float: none;
+}
+.jarvis .jarvis-field {
+  clear: both;
+  margin-bottom: 10px;
+}
+.jarvis .jarvis-fields-inline .jarvis-field {
+  clear: none;
+  float: left;
+  margin-left: 5px;
+}
+.jarvis .jarvis-fields-inline .jarvis-field:first-child {
+  margin-left: 0;
+  clear: left;
+}
+.jarvis .jarvis-fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.jarvis .jarvis-fieldset legend {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  line-height: 25px;
+  margin: 0;
+  border: none;
+}
+.jarvis .jarvis-fieldset .jarvis-fields {
+  width: auto;
+}
+.jarvis .jarvis-fieldset-inline .jarvis-fieldset {
+  float: left;
+  margin-left: 40px;
+}
+.jarvis .jarvis-fieldset-inline .jarvis-fieldset:first-child {
+  margin-left: 0;
+}
+.jarvis .jarvis-code-editor {
+  border: 1px solid #ccc;
+  max-width: 700px;
+}
+.jarvis .jarvis-code-editor * {
+  box-sizing: content-box;
+}
+.jarvis .jarvis-code-editor .CodeMirror-gutter-filler {
+  background: #f7f7f7;
+}
+.jarvis .jarvis-code-editor .CodeMirror-gutter-filler:before {
+  content: '';
+  display: block;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.jarvis .jarvis-code-editor.jarvis-code-small {
+  height: 100px;
+  max-width: 500px;
+}
+.jarvis .jarvis-code-editor.jarvis-code-fluid {
+  max-width: 100%;
+  height: 300px;
+}
+.jarvis .jarvis-color-picker {
+  padding: 1px;
+  position: relative;
+}
+.jarvis .jarvis-color-picker button, .jarvis .jarvis-color-picker input {
+  border-radius: 0;
+  height: 28px;
+  float: left;
+}
+.jarvis .jarvis-color-picker input {
+  width: 65px;
+  border-color: #ddd;
+}
+.jarvis .jarvis-color-picker button {
+  border: 1px solid #000;
+  position: relative;
+  width: 28px;
+  clear: left;
+  margin-right: 1px;
+}
+.jarvis .jarvis-color-picker button:hover {
+  border-color: #000;
+}
+.jarvis .jarvis-color-picker button:before, .jarvis .jarvis-color-picker button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+.jarvis .jarvis-color-picker button:before {
+  background: #000;
+  width: 11px;
+  height: 11px;
+}
+.jarvis .jarvis-color-picker button:after {
+  border: 4px solid transparent;
+  border-top-color: #fff;
+  top: 3px;
+  right: 1px;
+}
+.jarvis .jarvis-image-options input {
+  display: none;
+}
+.jarvis .jarvis-image-options label, .jarvis .jarvis-image-options img {
+  display: block;
+}
+.jarvis .jarvis-image-options label {
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.jarvis .jarvis-image-options img,
+.jarvis .jarvis-image-options label,
+.jarvis .jarvis-image-options .ui-state-active:after {
+  border-radius: 5px;
+}
+.jarvis .jarvis-image-options .ui-state-active:after,
+.jarvis .jarvis-image-options .ui-state-active:before {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.jarvis .jarvis-image-options .ui-state-active:after {
+  border: 5px solid #428bca;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 1px 1px 0 white, inset -1px -1px 0 white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.jarvis .jarvis-image-options .ui-state-active:before {
+  width: 22px;
+  height: 22px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTg2OEI2MzNCMERCMTFFMzg4NzdBMUQzQkUxQ0JCNDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTg2OEI2MzRCMERCMTFFMzg4NzdBMUQzQkUxQ0JCNDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ODY4QjYzMUIwREIxMUUzODg3N0ExRDNCRTFDQkI0NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1ODY4QjYzMkIwREIxMUUzODg3N0ExRDNCRTFDQkI0NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlpC5MsAAAIASURBVHjaYnTqPsWAAwgCcSQQewKxHhBLAPEvIH4CxHeAeDsQLwfi99g0s2AR4wDiQiAuA2IBNDk2INaAYh8gbgXibiDuB+LvyAqZ0DQqAPFpIG7DYig2IAA1/BRUL1aDZYD4MBDrMJAOdKB6ZdANBnl/HbIEGUAGagYnssEFQGzKQDkwhZoFNlgIiCsYqAfKQWYyQZMUPyk6BbhYGNqC1Bgk+NmxSYPMigQZ7E6qoT1hGgzmSvwMxW4KuJR5gAw2wCWrLMqF1VBFEU6GZx9+MnTtuI9Lqz7IYHFsMuFmkgyz4rUZoswlwXxhHlaGiZGaYEMfvPnOkLfsOsPrz79wGSwOynk/oTkKBfz//x9MJ9nKMDAyMjI4aggxyAhyMDwFurRi7S2G999+4w0ykMHPgZgXXWLV6RcMILMzHGQZkmykwWIgQ4tX3sDnUhh4CQqKm7hkV595wdC36wHYgvuEvY8MLoJcvBOIfXGp2HrpNcM/oMmn739i+EDA+0hgBxO06PuIT9X2y28Y3nz5RayhILOWgwx+B8SdVMx5ILPewcqKCUB8mQqGXoGaBS+EQIV0EBA/o8DQp0AcCCvwkctjUHVjA7WVHJfaQM3AWoOA8qgZEFcD8QciDPwAVQvS84BQnfcdWjVNB+IoUIECrUwlofKgDHUJlKSAeBmuyhQgwADoK4fzTDu9MAAAAABJRU5ErkJggg==");
+  top: -8px;
+  right: -8px;
+  z-index: 2;
+}
+.jarvis .jarvis-patterns-bg {
+  max-width: 450px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #eee;
+}
+.jarvis .jarvis-patterns-bg input {
+  display: none;
+}
+.jarvis .jarvis-patterns-bg label {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  vertical-align: top;
+}
+.jarvis .jarvis-patterns-bg input:checked + label:before, .jarvis .jarvis-patterns-bg input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.jarvis .jarvis-patterns-bg input:checked + label:after {
+  border: 5px solid #428bca;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 1px 1px 0 white, inset -1px -1px 0 white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 5px;
+}
+.jarvis .jarvis-patterns-bg input[value="none"] + label {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0UwRDQyNDEwQzlGMTFFNEFGMEFEMUIzRkM0OENGQUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0UwRDQyNDIwQzlGMTFFNEFGMEFEMUIzRkM0OENGQUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDRTBENDIzRjBDOUYxMUU0QUYwQUQxQjNGQzQ4Q0ZBQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDRTBENDI0MDBDOUYxMUU0QUYwQUQxQjNGQzQ4Q0ZBQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhbWpJcAAANoSURBVHjapJdbSFRBGMfPHtyym/lSso9mF4jSUjILHxKzwoIeikpTukBvCUlkEkXZ3aeVhHqJHiozonoIu4FiEZSX3ba2IMqNiB4ierGLFlls/4H/sa/ZXT1n9oMfc1znzH/O933zzYwvHo9bbiwcDk9FsxaUgUUgF0znv7+Ad+AZ6Aa3wXd9jKKiooRxfeNNAMKz0ewHVWCK5c6GQDtoBjGjCUA4E80RUA8mWGb2C7SAw+BnsgnYKcTz0Dzhl0vxCKgDJSAHZJIc/lbHPo6pdxs41sZkWgkegHghmjsc1LE+Dt7n8suLQStb6Y0gvNCYcgKM92MwQ/SpBZcNQ1ADLom/ldhcTCKWEAKIT0JzXYirGa9MQ9ziqnghPxjcoFZCDqiEKxB/rwFdaYir3NgHFoKP4vd8av0LAZPuFfAL17UZCquvXApOgRUM6VEwE1xknxEwX4XC8UCjEO9NQ9xirWigeBhsB/eZC73s46em5QuFQtPoIqfIlIiOXq2AA29hZdzDqvhHrI5eUawCygOVQjyShrgKY5DiD0A5uCXEneUcEZ6qtNnRsQuG4mrlHOI+8QEcoweSmdQot5mVjvUbiC8BN8E28JAJ3D1Gf6mRn0HXOfbWo/hEsBeUgpdgN9uxTGrkKQ9kiR++uhS2mVDXwCYWmwPgjYt3pUZWhmHMA+A4qACPWK7fmwxk6zNy8c4sFpkKJtwJj+L/edzWYzLOy4tZUGpZptezyHhdrqP5oCYQ1TI6lflZ25eD1zwrRAxXjWNRW9twdqYI0zJ+aRUPF/XaLufFdojnLpuHjyHh4mLthWxwkEVGiW8Fd7ldm3x9IZ+HlbaNHekbHq6KTmfE8wJwluVaJdrJMSqcG2sVz+1K29kNT3OLtLiVVoN54BzYDDpZsjvSEK/m2M523Dx6IOERKSg6t9ETpVwlTQZVUlqZtsW3QHMg2YlIrohV4DnYxdibmvLcPZn58kRki0vDDzQbREI6+3tA21K9ur1THO0/Kw1oDSe9FzAUq8FvLRw949SIZNneo7n9kzpnyhNxypsRzohqgPPaVq3sKffzfq6GQbFUcyms1rl+BYryy2Ner2ZNLDp+wxCMMLlTXs3cXE7n8JCp4jnZpbDKpytcagNp3Y616/k67XqezX8PatfzDrfX878CDADsAQNTJ8ucMwAAAABJRU5ErkJggg==");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.jarvis .jarvis-field .chosen-single {
+  border-radius: 2px;
+  background: #fff;
+  height: 32px;
+  box-shadow: none;
+  border-color: #ccc;
+}
+.jarvis .jarvis-field .chosen-container-single .chosen-single div b {
+  background-position: 0 5px;
+}
+.jarvis .jarvis-field .chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 5px;
+}
+.jarvis .jarvis-field .chosen-container-single .chosen-single span {
+  line-height: 30px;
+}
+.jarvis .jarvis-field .chosen-container-single .chosen-drop {
+  border-radius: 0 0 2px 2px;
+  border-color: #ccc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.jarvis .jarvis-style-editor {
+  width: 700px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #fafafa;
+  padding: 5px;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item {
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 1px;
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 5px;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item h3 {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  clear: left;
+  height: 24px;
+  line-height: 24px;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item ul {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 5px;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item .jarvis-toolbox {
+  display: none;
+  float: right;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item .jarvis-toolbox li, .jarvis .jarvis-style-editor .jarvis-editor-item .jarvis-toolbox a {
+  display: block;
+  float: left;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item .jarvis-toolbox a {
+  width: 24px;
+  height: 24px;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item .jarvis-toolbox .jarvis-icon:before {
+  margin: 0;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item:hover .jarvis-toolbox {
+  display: block;
+}
+.jarvis .jarvis-style-editor .jarvis-editor-item.jarvis-active {
+  background: #FEFFDB;
+}
+.jarvis .jarvis-style-editor .jarvis-button, .jarvis .jarvis-style-editor .jarvis-buttonset label, .jarvis .jarvis-buttonset .jarvis-style-editor label {
+  border-style: dashed;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.jarvis .jarvis-dialog textarea {
+  resize: none;
+  height: 100px;
+}
+.jarvis .jarvis-dialog .jarvis-buttonset .ui-button {
+  text-align: center;
+}
+.jarvis .jarvis-dialog .jarvis-fields {
+  width: auto;
+}
+.jarvis .jarvis-dialog .jarvis-section {
+  padding: 25px 40px 40px;
+}
+.jarvis .jarvis-dialog .jarvis-editor-toolbar {
+  padding: 20px 40px;
+  text-align: right;
+}
+.jarvis.ui-dialog {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+.jarvis.ui-dialog .ui-dialog-titlebar {
+  background: #fafafa;
+  color: #666;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 17px;
+  position: relative;
+}
+.jarvis.ui-dialog .ui-dialog-titlebar .ui-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  border: 0;
+  height: 52px;
+  width: 52px;
+  background: #f5f5f5;
+  border-left: 1px solid #ececec;
+}
+.jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-button-text {
+  display: none;
+}
+.jarvis.ui-dialog .ui-dialog-titlebar .ui-button .ui-button-icon-primary:before {
+  margin: 0;
+}
+.jarvis #jarvis-style-edit .jarvis-label {
+  width: auto;
+}
+.jarvis .jarvis-reset {
+  padding: 0;
+  margin: 0;
+}
+.jarvis .jarvis-clearfix:before, .jarvis .jarvis-layout-section-header:before,
+.jarvis .jarvis-row-header:before,
+.jarvis .jarvis-column-header:before, .jarvis .jarvis-layout-section-content:before,
+.jarvis .jarvis-row-content:before,
+.jarvis .jarvis-column-content:before, .jarvis .jarvis-clearfix:after, .jarvis .jarvis-layout-section-header:after,
+.jarvis .jarvis-row-header:after,
+.jarvis .jarvis-column-header:after, .jarvis .jarvis-layout-section-content:after,
+.jarvis .jarvis-row-content:after,
+.jarvis .jarvis-column-content:after,
+.jarvis .jarvis-row:before,
+.jarvis .jarvis-layout-section:before,
+.jarvis .jarvis-row:after,
+.jarvis .jarvis-layout-section:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.jarvis .jarvis-layout-toolbar {
+  width: 100%;
+  padding: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.jarvis .jarvis-layout-container {
+  width: 100%;
+  min-height: 500px;
+  font: 12px arial;
+  padding: 40px;
+  padding-top: 20px;
+  background: #e8e8e8;
+}
+.jarvis .jarvis-layout-container > button {
+  border: 1px dashed #c2c2c2;
+  background: #d7d7d7;
+  border-radius: 5px;
+  display: block;
+  padding: 20px;
+  width: 100%;
+}
+.jarvis .jarvis-layout-container > button:hover {
+  border-style: solid;
+  background: #d4d4d4;
+}
+.jarvis .jarvis-layout-container > button:active {
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  background: #d4d4d4;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-layout-section, .jarvis .jarvis-layout-container[data-screen-size="xsmall"] > button {
+  max-width: 500px;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-layout-section, .jarvis .jarvis-layout-container[data-screen-size="small"] > button {
+  max-width: 768px;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-layout-section, .jarvis .jarvis-layout-container[data-screen-size="medium"] > button {
+  max-width: 960px;
+}
+.jarvis .jarvis-toolbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/toolbox-icons.png) no-repeat;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="view"] {
+  background-position: 0px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="view"]:before, .jarvis .jarvis-toolbox-icon[data-icon="view"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="edit"] {
+  background-position: -16px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="edit"]:before, .jarvis .jarvis-toolbox-icon[data-icon="edit"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="add-column"] {
+  background-position: -32px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="add-column"]:before, .jarvis .jarvis-toolbox-icon[data-icon="add-column"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="add-row"] {
+  background-position: -48px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="add-row"]:before, .jarvis .jarvis-toolbox-icon[data-icon="add-row"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="move"] {
+  background-position: -64px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="move"]:before, .jarvis .jarvis-toolbox-icon[data-icon="move"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="map-position"] {
+  background-position: -80px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="map-position"]:before, .jarvis .jarvis-toolbox-icon[data-icon="map-position"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="resize"] {
+  background-position: -96px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="resize"]:before, .jarvis .jarvis-toolbox-icon[data-icon="resize"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="remove"] {
+  background-position: -112px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="remove"]:before, .jarvis .jarvis-toolbox-icon[data-icon="remove"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="drag"] {
+  background-position: -128px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="drag"]:before, .jarvis .jarvis-toolbox-icon[data-icon="drag"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="split-column"] {
+  background-position: -144px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="split-column"]:before, .jarvis .jarvis-toolbox-icon[data-icon="split-column"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="split-row"] {
+  background-position: -160px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="split-row"]:before, .jarvis .jarvis-toolbox-icon[data-icon="split-row"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="enter"] {
+  background-position: -176px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="enter"]:before, .jarvis .jarvis-toolbox-icon[data-icon="enter"]:after {
+  content: none;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="layout"] {
+  background-position: -192px 0;
+}
+.jarvis .jarvis-toolbox-icon[data-icon="layout"]:before, .jarvis .jarvis-toolbox-icon[data-icon="layout"]:after {
+  content: none;
+}
+.jarvis .jarvis-row, .jarvis .jarvis-layout-section,
+.jarvis .jarvis-column {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+.jarvis .jarvis-layout-section-header,
+.jarvis .jarvis-row-header,
+.jarvis .jarvis-column-header {
+  height: 25px;
+  cursor: move;
+}
+.jarvis .jarvis-layout-section-header button,
+.jarvis .jarvis-row-header button,
+.jarvis .jarvis-column-header button {
+  background: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+  float: left;
+  display: none;
+  margin: 0;
+}
+.jarvis .jarvis-layout-section-header .jarvis-layout-toolbox,
+.jarvis .jarvis-row-header .jarvis-layout-toolbox,
+.jarvis .jarvis-column-header .jarvis-layout-toolbox {
+  float: right;
+  display: none;
+}
+.jarvis .jarvis-layout-section:hover > .jarvis-layout-section-header button, .jarvis .jarvis-layout-section:hover > .jarvis-layout-section-header .jarvis-layout-toolbox,
+.jarvis .jarvis-column-wrap:hover > .jarvis-column-header button,
+.jarvis .jarvis-column-wrap:hover > .jarvis-column-header .jarvis-layout-toolbox {
+  display: block;
+}
+.jarvis .jarvis-layout-section-content,
+.jarvis .jarvis-row-content,
+.jarvis .jarvis-column-content {
+  min-height: 70px;
+}
+.jarvis .jarvis-row, .jarvis .jarvis-layout-section {
+  margin: 10px 0;
+}
+.jarvis .jarvis-row .jarvis-row-content, .jarvis .jarvis-layout-section .jarvis-row-content {
+  padding: 5px 10px;
+  margin: 0 -5px;
+}
+.jarvis .jarvis-column {
+  float: left;
+  width: 100%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="1"] {
+  width: 8.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="2"] {
+  width: 16.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="3"] {
+  width: 25%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="4"] {
+  width: 33.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="5"] {
+  width: 41.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="6"] {
+  width: 50%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="7"] {
+  width: 58.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="8"] {
+  width: 66.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="9"] {
+  width: 75%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="10"] {
+  width: 83.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="11"] {
+  width: 91.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="large"] .jarvis-column[data-large-width="12"] {
+  width: 100%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="1"] {
+  width: 8.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="2"] {
+  width: 16.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="3"] {
+  width: 25%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="4"] {
+  width: 33.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="5"] {
+  width: 41.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="6"] {
+  width: 50%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="7"] {
+  width: 58.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="8"] {
+  width: 66.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="9"] {
+  width: 75%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="10"] {
+  width: 83.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="11"] {
+  width: 91.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="medium"] .jarvis-column[data-medium-width="12"] {
+  width: 100%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="1"] {
+  width: 8.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="2"] {
+  width: 16.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="3"] {
+  width: 25%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="4"] {
+  width: 33.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="5"] {
+  width: 41.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="6"] {
+  width: 50%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="7"] {
+  width: 58.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="8"] {
+  width: 66.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="9"] {
+  width: 75%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="10"] {
+  width: 83.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="11"] {
+  width: 91.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="small"] .jarvis-column[data-small-width="12"] {
+  width: 100%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="1"] {
+  width: 8.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="2"] {
+  width: 16.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="3"] {
+  width: 25%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="4"] {
+  width: 33.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="5"] {
+  width: 41.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="6"] {
+  width: 50%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="7"] {
+  width: 58.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="8"] {
+  width: 66.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="9"] {
+  width: 75%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="10"] {
+  width: 83.33333%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="11"] {
+  width: 91.66667%;
+}
+.jarvis .jarvis-layout-container[data-screen-size="xsmall"] .jarvis-column[data-xsmall-width="12"] {
+  width: 100%;
+}
+.jarvis .jarvis-layout-section {
+  background: #d7d7d7;
+  border-radius: 5px;
+}
+.jarvis .jarvis-layout-section .jarvis-layout-section-header {
+  background: #ccc;
+  border-radius: 5px 5px 0 0;
+}
+.jarvis .jarvis-layout-section .jarvis-layout-section-content {
+  padding: 25px 30px;
+}
+.jarvis .jarvis-layout-container .jarvis-column {
+  padding: 5px;
+  position: relative;
+}
+.jarvis .jarvis-layout-container .jarvis-column .ui-resizable-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -6px;
+  width: 10px;
+  cursor: e-resize;
+}
+.jarvis .jarvis-layout-container .jarvis-column .ui-resizable-handle:before, .jarvis .jarvis-layout-container .jarvis-column .ui-resizable-handle:after {
+  content: '';
+  display: none;
+  width: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -3px;
+}
+.jarvis .jarvis-layout-container .jarvis-column .ui-resizable-handle:before {
+  border: 4px solid #bbb;
+  border-left: none;
+  border-right: none;
+  height: 16px;
+  margin-top: -8px;
+}
+.jarvis .jarvis-layout-container .jarvis-column .ui-resizable-handle:after {
+  height: 4px;
+  background: #bbb;
+  margin-top: 16px;
+}
+.jarvis .jarvis-layout-container .jarvis-column:hover > .ui-resizable-handle:before, .jarvis .jarvis-layout-container .jarvis-column:hover > .ui-resizable-handle:after, .jarvis .jarvis-layout-container .jarvis-column.ui-resizable-resizing > .ui-resizable-handle:before, .jarvis .jarvis-layout-container .jarvis-column.ui-resizable-resizing > .ui-resizable-handle:after {
+  display: block;
+}
+.jarvis .jarvis-layout-container .jarvis-column > .jarvis-column-wrap {
+  background: #eee;
+  border-radius: 3px;
+}
+.jarvis .jarvis-layout-container .jarvis-column > .jarvis-column-wrap > .jarvis-column-header {
+  background: #b5b5b5;
+  border-radius: 3px 3px 0 0;
+}
+.jarvis .jarvis-layout-container .jarvis-column > .jarvis-column-wrap > .jarvis-column-content {
+  padding: 10px;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-row, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section {
+  border: 1px dashed #aaa;
+  background: #ccc;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-row .jarvis-row-header, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section .jarvis-row-header {
+  display: none;
+  position: absolute;
+  width: 24px;
+  border: 1px solid #aaa;
+  border-left-color: #ccc;
+  right: -24px;
+  top: -1px;
+  background: #ccc;
+  z-index: 1;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-row:hover, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section:hover {
+  position: relative;
+  border-style: solid;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-row:hover .jarvis-row-header, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section:hover .jarvis-row-header {
+  display: block;
+  height: auto;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-row:hover .jarvis-row-header button, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section:hover .jarvis-row-header button, .jarvis .jarvis-layout-container .jarvis-column .jarvis-row:hover .jarvis-row-header .jarvis-layout-toolbox, .jarvis .jarvis-layout-container .jarvis-column .jarvis-layout-section:hover .jarvis-row-header .jarvis-layout-toolbox {
+  display: block;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column {
+  padding: 2px;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column > .jarvis-column-wrap {
+  background: #eee;
+  border-radius: 0;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column > .jarvis-column-wrap > .jarvis-column-header {
+  border-radius: 0;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column > .jarvis-column-wrap > .jarvis-column-header button[data-command="addColumn"],
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column > .jarvis-column-wrap > .jarvis-column-header button[data-command="addRow"] {
+  display: none;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column .ui-resizable-handle:before {
+  display: none;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column .ui-resizable-handle:after {
+  width: 3px;
+  height: 30px;
+  margin-top: -15px;
+  background: #a5a5a5;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column-content > .jarvis-row:first-child, .jarvis .jarvis-layout-container .jarvis-column .jarvis-column-content > .jarvis-layout-section:first-child {
+  margin-top: 0;
+}
+.jarvis .jarvis-layout-container .jarvis-column .jarvis-column-content > .jarvis-row:last-child, .jarvis .jarvis-layout-container .jarvis-column .jarvis-column-content > .jarvis-layout-section:last-child {
+  margin-bottom: 0;
+}
+.jarvis .jarvis-column.jarvis-has-items > .jarvis-column-wrap > .jarvis-column-header button[data-command="mapPosition"] {
+  display: none;
+}
+.jarvis .jarvis-column[data-position]:after {
+  content: attr(data-position);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.jarvis .jarvis-column[data-position] > .jarvis-column-wrap > .jarvis-column-header button[data-command="addColumn"],
+.jarvis .jarvis-column[data-position] > .jarvis-column-wrap > .jarvis-column-header button[data-command="addRow"] {
+  display: none;
+}
+.jarvis .jarvis-column[data-position="component"] > .jarvis-column-wrap {
+  border: 1px solid #6B90B9;
+}
+.jarvis .jarvis-column[data-position="component"] > .jarvis-column-wrap > .jarvis-column-header {
+  background: #8CC0E2;
+}
+.jarvis .jarvis-column[data-position="system-message"] > .jarvis-column-wrap {
+  border: 1px solid #FF7000;
+}
+.jarvis .jarvis-column[data-position="system-message"] > .jarvis-column-wrap > .jarvis-column-header {
+  background: #E9CAA8;
+}
+.jarvis .jarvis-layout-confirm {
+  display: none;
+}
+.jarvis .jarvis-layout-builder[data-layout-changed="yes"] {
+  position: relative;
+}
+.jarvis .jarvis-layout-builder[data-layout-changed="yes"] .jarvis-layout-confirm {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 80px 20px;
+  text-align: center;
+  z-index: 999;
+}
+.jarvis .jarvis-layout-builder[data-layout-changed="yes"] .jarvis-layout-confirm p:first-child {
+  background: #fff;
+  padding: 30px 50px 80px;
+  width: 600px;
+  margin: 0 auto -70px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.jarvis .jarvis-row[data-column-count="6"] > .jarvis-layout-section-header button[data-command="addColumn"], .jarvis [data-column-count="6"].jarvis-layout-section > .jarvis-layout-section-header button[data-command="addColumn"],
+.jarvis .jarvis-row[data-column-count="6"] > .jarvis-row-header button[data-command="addColumn"],
+.jarvis [data-column-count="6"].jarvis-layout-section > .jarvis-row-header button[data-command="addColumn"],
+.jarvis .jarvis-layout-section[data-column-count="6"] > .jarvis-layout-section-header button[data-command="addColumn"],
+.jarvis .jarvis-layout-section[data-column-count="6"] > .jarvis-row-header button[data-command="addColumn"] {
+  display: none;
+}
+.jarvis #jarvis-layout-map-position select[name="position"] {
+  height: auto;
+}
+.jarvis #jarvis-layout-map-position input[name="position-filter"] {
+  width: 337px;
+}
+.jarvis #jarvis-layout-section-edit .jarvis-label,
+.jarvis #jarvis-layout-column-edit .jarvis-label {
+  float: left;
+  width: 120px;
+  margin-left: -120px;
+}
+.jarvis #jarvis-layout-section-edit .jarvis-field,
+.jarvis #jarvis-layout-column-edit .jarvis-field {
+  position: relative;
+  padding-left: 120px;
+}
+.jarvis #jarvis-layout-section-edit .jarvis-color-picker button,
+.jarvis #jarvis-layout-column-edit .jarvis-color-picker button {
+  clear: none;
+}
+.jarvis #jarvis-layout-section-edit .jarvis-color-picker,
+.jarvis #jarvis-layout-column-edit .jarvis-color-picker {
+  display: inline-block;
+}
+.jarvis #jarvis-layout-section-edit .jarvis-buttonset .ui-button,
+.jarvis #jarvis-layout-column-edit .jarvis-buttonset .ui-button {
+  width: auto;
+}
+.jarvis #jarvis-layout-section-edit #custom-background,
+.jarvis #jarvis-layout-section-edit #visibility,
+.jarvis #jarvis-layout-column-edit #custom-background,
+.jarvis #jarvis-layout-column-edit #visibility {
+  border-top: 1px solid #eee;
+  margin: 20px -40px 0;
+  padding: 15px 40px 0;
+}
+.jarvis #jarvis-layout-section-edit legend,
+.jarvis #jarvis-layout-column-edit legend {
+  font-size: 12px;
+  color: #ccc;
+  margin: 0 0 0 -6px;
+  padding: 0 5px;
+  border: none;
+  width: auto;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-tabs-nav {
+  margin-top: -1px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-tabs-nav .ui-tabs-nav {
+  text-align: center;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-tabs-nav .ui-tabs-nav > li {
+  float: none;
+  display: inline-block;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-tabs-nav a {
+  padding: 0 25px;
+  height: 45px;
+  line-height: 45px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-tab-page {
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #f5f5f5;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-layout-container {
+  padding: 0;
+  background: transparent;
+  min-height: 0;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-row, .jarvis #jarvis-layout-row-edit .jarvis-layout-section {
+  margin: 5px 0;
+  padding-left: 50px;
+  background: #f8f8f8;
+  border-radius: 2px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-row-content {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 0;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-columns-count {
+  display: block;
+  position: absolute;
+  font: 25px Georgia, Times New Roman;
+  color: #999;
+  width: 50px;
+  left: -50px;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column-wrap {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column-content {
+  min-height: 45px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column .ui-resizable-handle {
+  right: 5px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column .ui-resizable-handle:before, .jarvis #jarvis-layout-row-edit .jarvis-column .ui-resizable-handle:after {
+  width: 3px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column .ui-resizable-handle:before {
+  border: 3px solid #ddd;
+  border-left: none;
+  border-right: none;
+  height: 12px;
+  margin-top: -10px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column .ui-resizable-handle:after {
+  height: 3px;
+  background: #ddd;
+  margin-top: 8px;
+}
+.jarvis #jarvis-layout-row-edit .jarvis-column:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -25px;
+}
+.jarvis #jarvis-layout-row-edit div[data-screen-size="large"] .jarvis-column:after {
+  content: attr(data-large-width);
+}
+.jarvis #jarvis-layout-row-edit div[data-screen-size="medium"] .jarvis-column:after {
+  content: attr(data-medium-width);
+}
+.jarvis #jarvis-layout-row-edit div[data-screen-size="small"] .jarvis-column:after {
+  content: attr(data-small-width);
+}
+.jarvis #jarvis-layout-row-edit div[data-screen-size="xsmall"] .jarvis-column:after {
+  content: attr(data-xsmall-width);
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="1"] > .jarvis-row:nth-child(1), .jarvis #jarvis-layout-row-edit div[data-column-count="1"] > .jarvis-layout-section:nth-child(1) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="2"] > .jarvis-row:nth-child(2), .jarvis #jarvis-layout-row-edit div[data-column-count="2"] > .jarvis-layout-section:nth-child(2) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="3"] > .jarvis-row:nth-child(3), .jarvis #jarvis-layout-row-edit div[data-column-count="3"] > .jarvis-layout-section:nth-child(3) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="4"] > .jarvis-row:nth-child(4), .jarvis #jarvis-layout-row-edit div[data-column-count="4"] > .jarvis-layout-section:nth-child(4) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="5"] > .jarvis-row:nth-child(5), .jarvis #jarvis-layout-row-edit div[data-column-count="5"] > .jarvis-layout-section:nth-child(5) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit div[data-column-count="6"] > .jarvis-row:nth-child(6), .jarvis #jarvis-layout-row-edit div[data-column-count="6"] > .jarvis-layout-section:nth-child(6) {
+  background: #CFF0FF;
+}
+.jarvis #jarvis-layout-row-edit form .jarvis-section:first-child {
+  max-height: 500px;
+  overflow: auto;
+}
+.jarvis #jarvis-restore-settings form,
+.jarvis #jarvis-restore-settings .jarvis-section {
+  margin: 0;
+  text-align: center;
+  border: none;
+  position: relative;
+}
+.jarvis #jarvis-restore-settings .jarvis-section:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../img/loader.gif) no-repeat center center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-in-out 0s;
+}
+.jarvis #jarvis-restore-settings .jarvis-button, .jarvis #jarvis-restore-settings .jarvis-buttonset label, .jarvis .jarvis-buttonset #jarvis-restore-settings label {
+  transition: all 0.2s ease-in-out 0s;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  line-height: 50px;
+}
+.jarvis #jarvis-restore-settings .jarvis-button input, .jarvis #jarvis-restore-settings .jarvis-buttonset label input, .jarvis .jarvis-buttonset #jarvis-restore-settings label input {
+  opacity: 0;
+  position: absolute;
+  transform: scale(3);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.jarvis #jarvis-restore-settings iframe {
+  visibility: hidden;
+  position: absolute;
+  top: -100%;
+}
+.jarvis #jarvis-restore-settings.jarvis-processing .jarvis-button, .jarvis #jarvis-restore-settings.jarvis-processing .jarvis-buttonset label, .jarvis .jarvis-buttonset #jarvis-restore-settings.jarvis-processing label {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.jarvis #jarvis-restore-settings.jarvis-processing .jarvis-section:after {
+  top: 50%;
+  opacity: 1;
+}
+.jarvis .jarvis-menus-assignment,
+.jarvis .jarvis-menus-assignment ul {
+  font-size: 12px;
+}
+.jarvis .jarvis-menus-assignment {
+  display: block;
+  margin: 10px -20px 0;
+}
+.jarvis .jarvis-menu-type {
+  display: block;
+  width: 25%;
+  padding: 0 20px;
+  float: left;
+}
+.jarvis .jarvis-menu-type > ul {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.jarvis .jarvis-menu-type-header {
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.jarvis .jarvis-menu-item label {
+  display: block;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 5px 20px;
+}
+.jarvis .jarvis-menu-item label:hover {
+  background: #fcfcfc;
+}
+.jarvis .jarvis-menu-item:last-child label {
+  border-bottom: none;
+}
+.jarvis .jarvis-logo {
+  text-align: center;
+  padding: 22px;
+}
+.jarvis .jarvis-logo a {
+  height: auto;
+}
+.jarvis[data-edition="free"] [data-require-edition="pro"] {
+  position: relative;
+}
+.jarvis[data-edition="free"] [data-require-edition="pro"]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5) url(../img/pro-mask.png) no-repeat left top;
+  z-index: 9;
+}
+.jarvis .jarvis-free-badge {
+  background: #c02828;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  vertical-align: top;
+  display: inline-block;
+}
+.jarvis .jarvis-title {
+  color: #555;
+  padding: 0;
+  margin: 0 0 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.jarvis .jarvis-label {
+  width: 15%;
+  float: left;
+  clear: left;
+  padding: 7px 0;
+}
+.jarvis .jarvis-wrapper > .jarvis-tabs-pages > .jarvis-tab-page {
+  min-height: 500px;
+  padding: 0;
+}
+.jarvis #jarvis-nav > .ui-tabs-nav a {
+  height: 55px;
+  line-height: 55px;
+  padding: 0 15px;
+  color: #555555;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.jarvis #jarvis-nav > .ui-tabs-nav a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.jarvis #jarvis-nav > .ui-tabs-nav > .ui-state-active a {
+  color: #000;
+}
+.jarvis #jarvis-style-thumbnail {
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 40px;
+}
+.jarvis #jarvis-style-thumbnail img {
+  display: block;
+}
+.jarvis #jarvis-style-info .jarvis-meta {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.jarvis #jarvis-style-info .jarvis-meta .jarvis-framework-version,
+.jarvis #jarvis-style-info .jarvis-meta .jarvis-template-version {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+body[data-joomla-2] #toolbar-box {
+  background: transparent;
+  margin-bottom: 0;
+}
+body[data-joomla-2] #content-box {
+  width: auto;
+  float: none;
+}
+body[data-joomla-2] #toolbar-box .m,
+body[data-joomla-2] #element-box .m {
+  border-radius: 5px;
+}
+body[data-joomla-2] #jarvis-toolbar {
+  margin-bottom: 20px;
+}
+
+#joomla-toolbar {
+  padding-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#joomla-toolbar:before, #joomla-toolbar:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#joomla-toolbar label, #joomla-toolbar input, #joomla-toolbar select {
+  float: left;
+  font-size: 13px;
+  margin-right: 5px;
+}
+#joomla-toolbar input, #joomla-toolbar select {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+#joomla-toolbar label {
+  line-height: 30px;
+}
+#joomla-toolbar label:not(:first-child) {
+  margin-left: 30px;
+}
+
+.ui-widget-overlay.ui-front {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  opacity: 0.1;
+}
+
+/*# sourceMappingURL=admin.css.map */

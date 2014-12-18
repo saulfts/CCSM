@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params" addfieldpath="/plugins/system/omgmenu/libs/element/">
+		<fieldset name="omg_params" label="OMG_MENU_OPTIONS_FIELDSET_LABEL"> 
+			<field name="iomg_icon"
+				type="media"
+				label="OMG_MENU_ITEM_ICON_LABEL"
+				description="OMG_MENU_ITEM_ICON_DESC" />
+				
+			<field name="iomg_showtitle" type="list" default="1" label="OMG_MENU_SHOW_ITEM_TITLE_LABEL" description="OMG_MENU_SHOW_ITEM_TITLE_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			
+			<field name="iomg_subtitle"
+				type="text" 
+				default=""
+				size="30"
+				label="OMG_MENU_ITEM_SUBTITLE_LABEL" 
+				description="OMG_MENU_ITEM_SUBTITLE_DESC" />
+				
+			<field name="iomg_listcls" 
+				type="text" 
+				default=""
+				size="22"
+				label="OMG_MENU_LIST_ITEM_CLASS_SUFFIX_LABEL" 
+				description="OMG_MENU_LIST_ITEM_CLASS_SUFFIX_DESC" />
+				
+			<field name="iomg_custom_color" type="list" default="0" label="OMG_MENU_CUSTOM_ITEM_COLOR_LABEL" description="OMG_MENU_CUSTOM_ITEM_COLOR_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="iomg_color" 
+				type="color" 
+				default="#666666" 
+				size="15" 
+				label="OMG_MENU_ITEM_TEXT_COLOR_LABEL" 
+				description="OMG_MENU_ITEM_TEXT_COLOR_DESC" />
+			
+			<field name="spacer11" type="spacer" class="text" label="" />
+			
+			<field name="spacer1" type="note" class="text" label="OMG_MENU_SUBMENU_LAYOUT_HEADING" />
+			
+			<field name="iomg_width"
+				type="text"
+				default="200" 
+				size="22"
+				label="OMG_MENU_SUBMENU_BOX_WIDTH_LABEL"
+				description="OMG_MENU_SUBMENU_BOX_WIDTH_DESC" />
+			
+			<field name="iomg_margin"
+				type="text" 
+				default="0" 
+				size="22" 
+				label="OMG_MENU_SUBMENU_BOX_MARGIN_LABEL" 
+				description="OMG_MENU_SUBMENU_BOX_MARGIN_DESC" />
+			
+			<field name="iomg_padding"
+				type="text" 
+				default="5" 
+				size="22" 
+				label="OMG_MENU_SUBMENU_BOX_PADDING_LABEL" 
+				description="OMG_MENU_SUBMENU_BOX_PADDING_DESC" />
+				
+			<field name="iomg_create_col" type="list" default="0" label="OMG_MENU_CREATE_SUB_COLUMN_LABEL" description="OMG_MENU_CREATE_SUB_COLUMN_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="spacer22" type="spacer" class="text" label="" />
+			
+			<field name="spacer2" type="note" class="text" label="OMG_MENU_SUBMENU_LOADMODULE_HEADING" />
+			
+			<field name="iomg_loadmod"
+				type="list"
+				default="0"
+				label="OMG_MENU_LOAD_MODULE_LABEL"
+				description="OMG_MENU_LOAD_MODULE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+				
+			<field name="iomg_module_style"
+				type="ochromestyle"
+				default="none"
+				label="OMG_MENU_MODULE_STYLE_LABEL"
+				description="OMG_MENU_MODULE_STYLE_DESC" />
+			
+			<field name="iomg_loadby" type="list" default="mod" label="OMG_MENU_SUBMENU_CHILD_TYPE_LABEL" description="OMG_MENU_SUBMENU_CHILD_TYPE_DESC">
+				<option value="mod">OMG_MENU_SUBTYPE_MODULES</option>
+				<option value="pos">OMG_MENU_SUBTYPE_POSITIONS</option>
+			</field>
+			
+			<field name="iomg_modules"
+				type="omodules"
+				default="0"
+				label="OMG_MENU_MODULES_LIST_LABEL"
+				description="OMG_MENU_MODULES_LIST_DESC"
+				multiple="multiple"
+				size="22" />
+				
+			<field name="iomg_positions"
+				type="opositions"
+				default="0"
+				label="OMG_MENU_POSITION_LIST_LABEL"
+				description="OMG_MENU_POSITION_LIST_DESC"
+				multiple="multiple"
+				size="22"/>
+		</fieldset>
+	</fields>
+</form>

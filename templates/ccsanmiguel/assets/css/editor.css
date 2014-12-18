@@ -1,0 +1,227 @@
+/**
+*	@version	$Id: editor.css 55 2013-04-24 07:25:47Z linhnt $
+*	@package	OMG Responsive Template for Joomla! 3
+*	@subpackage	template ot_smartsolutions
+*	@copyright	Copyright (C) 2009 - 2013 Omegatheme. All rights reserved.
+*	@license	GNU/GPL version 2, or later
+*	@website:	http://www.omegatheme.com
+*	Support Forum - http://www.omegatheme.com/forum/
+*/
+
+body {
+	background: #fff;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
+	line-height: 1.3em;
+	font-size: 85%;
+	color: #333;
+}
+
+h1 {
+	font-family:Helvetica ,Arial,sans-serif;
+	font-weight: bold;
+	color: #666;
+}
+
+h2 {
+	font-family: Arial, Helvetica,sans-serif;
+	font-weight: normal;
+	color: #333;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: Helvetica,Arial,sans-serif;
+  color: #333;
+}
+
+h4 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+a:link, a:visited {
+	color: #1B57B1; text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #00c;	text-decoration: underline;
+	font-weight: normal;
+}
+
+div.caption       { padding: 0 10px 0 10px; }
+div.caption img   { border: 1px solid #CCC; }
+div.caption p     { font-size: .90em; color: #666; text-align: center; }
+pre {border: 1px solid #DDD; border-radius: 3px; padding: 3px; }
+pre.prettyprint{}
+pre.prettyprint.linenums{}
+
+/* OTHER BOOTSTRAP CSS */
+/* paragraph */
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+.muted {
+  color: #999999;
+}
+
+a.muted:hover,
+a.muted:focus {
+  color: #808080;
+}
+
+.text-warning {
+  color: #c09853;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #a47e3c;
+}
+
+.text-error {
+  color: #b94a48;
+}
+
+a.text-error:hover,
+a.text-error:focus {
+  color: #953b39;
+}
+
+.text-info {
+  color: #3a87ad;
+}
+
+a.text-info:hover,
+a.text-info:focus {
+  color: #2d6987;
+}
+
+.text-success {
+  color: #468847;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #356635;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* list */
+ul.unstyled{}
+ul.inline, ol.inline{}
+
+/* dl, dt */
+.dl-horizontal{}
+
+/* abbr */
+.initialism{}
+
+/* image */
+.img-rounded {
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.img-polaroid {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+}
+/* table */
+.table{}
+.table-striped{}
+.table-bordered{}
+.table-hover{}
+.table-condensed{}
+/* table row */
+.table tbody tr.success > td {
+  background-color: #dff0d8;
+}
+
+.table tbody tr.error > td {
+  background-color: #f2dede;
+}
+
+.table tbody tr.warning > td {
+  background-color: #fcf8e3;
+}
+
+.table tbody tr.info > td {
+  background-color: #d9edf7;
+}
+
+.table-hover tbody tr.success:hover > td {
+  background-color: #d0e9c6;
+}
+
+.table-hover tbody tr.error:hover > td {
+  background-color: #ebcccc;
+}
+
+.table-hover tbody tr.warning:hover > td {
+  background-color: #faf2cc;
+}
+
+.table-hover tbody tr.info:hover > td {
+  background-color: #c4e3f3;
+}
+
+.success{}
+.error{}
+.warning{}
+.info{}
+
+/* floating */
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.affix {
+  position: fixed;
+}
+
+/* STYLES FOR JOOMLA! EDITOR */
+hr#system-readmore  { border: red dashed 1px; color: red; }
+hr.system-pagebreak { border: gray dashed 1px; color: gray; }

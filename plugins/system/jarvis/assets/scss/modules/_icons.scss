@@ -1,0 +1,28 @@
+%jarvis-icon {
+	&:before {
+		content: '';
+		display: inline-block;
+		width: $jarvis-icons-size;
+		height: $jarvis-icons-size;
+		vertical-align: middle;
+		background: $jarvis-icons-url no-repeat;
+		margin-top: -2px;
+		margin-right: 5px;
+	}
+}
+
+@for $index from 1 through length($jarvis-icons) {
+	$name: nth($jarvis-icons, $index);
+	.jarvis-icon-#{$name} {
+		@extend %jarvis-icon;
+
+		&:before {
+			background-position: -($index - 1)*$jarvis-icons-size 0;
+		}
+	}
+
+	.ui-state-active .jarvis-icon-#{$name}:before,
+	.jarvis-icon-#{$name}:hover:before {
+		background-position: -($index - 1)*$jarvis-icons-size -#{$jarvis-icons-size};
+	}
+}

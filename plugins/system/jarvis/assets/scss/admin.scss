@@ -1,0 +1,211 @@
+/**
+ * @package     Jarvis
+ *
+ * @copyright   Copyright (C) 2009 - 2014 Omegatheme.com. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE
+ * @website:	http://www.omegatheme.com
+ *	Support Forum - http://www.omegatheme.com/forum/
+ * 
+ * @version	$Id: admin.scss 14 2014-07-17 04:49:10Z linhnt $
+ */
+ 
+.jarvis {
+	@import '_config';
+	@import 'modules/_mixins';
+	@import 'modules/_reset';
+	@import 'modules/_misc';
+	@import 'modules/_accordion';
+	@import 'modules/_tabs';
+	@import 'modules/_input';
+	@import 'modules/_button';
+	@import 'modules/_dropdown';
+	@import 'modules/_icons';
+	@import 'modules/_section';
+	@import 'modules/_form';
+	@import 'modules/_codeEditor';
+	@import 'modules/_colorPicker';
+	@import 'modules/_imageOptions';
+	@import 'modules/_backgroundPatterns';
+	@import 'modules/_chosen';
+	@import 'modules/_styleEditor';
+	@import 'modules/_layoutBuilder';
+	@import 'modules/_menuAssignment';
+
+	font: $jarvis-font;
+	color: $jarvis-color;
+	line-height: $jarvis-lineheight;
+
+	.jarvis-logo {
+		text-align: center;
+		padding: 22px;
+
+		a {
+			height: auto;
+		}
+	}
+
+	&[data-edition="free"] [data-require-edition="pro"] {
+		position: relative;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(255, 255, 255, 0.5) url(../img/pro-mask.png) no-repeat left top;
+			z-index: 9;
+		}
+
+		@extend %clear-after;
+	}
+
+	.jarvis-free-badge {
+		background: #c02828;
+		padding: 0 10px;
+		font-size: 15px;
+		font-weight: 400;
+		color: #fff;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.jarvis-title {
+		color: #555;
+		padding: 0;
+		margin: 0 0 5px;
+		font-size: 25px;
+		text-transform: uppercase;
+		line-height: 25px;
+	}
+
+	.jarvis-label {
+		width: 15%;
+		float: left;
+		clear: left;
+		padding: 7px 0;
+	}
+
+	.jarvis-wrapper {	
+		> .jarvis-tabs-pages {
+			> .jarvis-tab-page {
+				min-height: 500px;
+				padding: 0;
+			}
+		}
+	}
+
+	#jarvis-nav {
+		> .ui-tabs-nav {
+			a {
+				height: 55px;
+				line-height: 55px;
+				padding: 0 15px;
+				color: $jarvis-color;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 12px;
+
+				&:hover {
+					text-decoration: none;
+					color: #000;
+				}
+			}
+
+			> .ui-state-active {
+				a {
+					color: #000;
+				}
+			}
+		}
+	}
+
+	#jarvis-style-thumbnail {
+		float: left;
+		border: 1px solid #ccc;
+		margin-right: 40px;
+
+		img {
+			display: block;
+		}
+	}
+
+	#jarvis-style-info {
+		.jarvis-meta {
+			.jarvis-framework-version,
+			.jarvis-template-version {
+				display: inline-block;
+				margin-right: 40px;
+			}
+
+			margin-bottom: 20px;
+			font-size: 12px;
+		}
+	}
+}
+
+// Joomla 2 Specific CSS
+body[data-joomla-2] {
+	#toolbar-box {
+		background: transparent;
+		margin-bottom: 0;
+	}
+	#content-box {
+		width: auto;
+		float: none;
+	}
+
+	#toolbar-box .m,
+	#element-box .m {
+		border-radius: 5px;
+	}
+
+	#jarvis-toolbar {
+		margin-bottom: 20px;
+	}
+}
+
+#joomla-toolbar {
+	padding-left: 180px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	label, input, select {
+		float: left;
+		font-size: 13px;
+		margin-right: 5px;
+	}
+	input, select {
+		border: 1px solid #ccc;
+		background: #fff;
+		padding: 5px;
+		border-radius: 3px;
+	}
+	label {
+		line-height: 30px;
+
+		&:not(:first-child) {
+			margin-left: 30px;
+		}
+	}
+}
+
+.ui-widget-overlay.ui-front {
+	background: #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+	opacity: 0.1;
+}

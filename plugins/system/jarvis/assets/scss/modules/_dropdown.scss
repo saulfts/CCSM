@@ -1,0 +1,20 @@
+.jarvis-dropdown {
+	.position: relative;
+
+	.jarvis-input {
+		float: left;
+		clear: left;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.jarvis-button {
+		padding: 5px 10px 0;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+		margin-left: -1px;
+	}
+
+	.jarvis-dropdown-menu {
+		display: none;
+	}
+}

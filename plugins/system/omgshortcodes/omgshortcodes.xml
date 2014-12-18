@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_omgshortcodes</name>
+	<author>OmegaTheme.com</author>
+	<creationDate>May 2014</creationDate>
+	<copyright>Copyright (C) 2009 - 2014 OmegaTheme. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<version>1.1.0</version>
+	<description>This Plugin allows use of shortcode in content also frontend site, use Wordpress shortcode API.</description>
+	<scriptfile>install.script.php</scriptfile>
+	<files>
+		<filename plugin="omgshortcodes">omgshortcodes.php</filename>
+		<filename>index.html</filename>
+		<filename>install.script.php</filename>
+		<folder>assets</folder>
+		<folder>inc</folder>
+		<folder>language</folder>
+	</files>
+	<config>
+    <fields name="params">
+      <fieldset name="basic" label="Configuration">
+        <field name="runmode" type="list" default="0" label="Shortcode Run Mode" description="Choose onPrepareContent (content articles only) or onAfterRender (entire font-end)">
+			<option value="0">Content Only</option>
+			<option value="1">Entire Front-end</option>
+        </field>
+        <field name="load_bootstrap" type="list" default="0" label="Load Bootstrap?" description="">
+			<option value="0">JNo</option>
+			<option value="1">JYes</option>
+        </field>
+        <field name="load_awesome" type="list" default="1" label="Load awesome font?" description="">
+			<option value="0">JNo</option>
+			<option value="1">JYes</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>

@@ -1,0 +1,163 @@
+$jarvis-tabs-border-color: nth($jarvis-tabs-color, 1);
+$jarvis-tabs-active-color: nth($jarvis-tabs-color, 2);
+$jarvis-tabs-highlight-color: nth($jarvis-tabs-color, 3);
+
+.jarvis-tabs {
+
+	> .jarvis-tabs-nav {
+		ul, li {
+			list-style: none;
+		}
+		
+		.ui-tabs-nav {
+			@extend %clear-after;
+			@extend %no-list-style;
+			@extend %reset;
+		}
+		.ui-state-default {
+			border: $jarvis-tabs-border solid $jarvis-tabs-border-color;
+			background: #fcfcfc;
+		}
+		.ui-state-active {
+			background: #fff;
+			border-color: $jarvis-tabs-active-color;
+			position: relative;
+			z-index: 1;
+		}
+
+		a {
+			display: block;
+			padding: 5px 10px;
+			color: $jarvis-color;
+			text-decoration: none;
+
+			&:hover {
+				color: darken($jarvis-color, 30%);
+				text-decoration: none;
+			}
+		}
+	}
+	> .jarvis-tabs-pages {
+		> .jarvis-tab-page {
+			border: $jarvis-tabs-border solid $jarvis-tabs-active-color;
+			background: #fff;
+			padding: 10px;
+		}
+	}
+}
+
+.jarvis-tabs-indicator {
+	> .jarvis-tabs-nav {
+		.ui-state-active {
+			&:after, &:before {
+				position: absolute;
+				display: block;
+				content: '';
+				border: 10px solid transparent;
+			}
+		}
+	}
+
+	&.jarvis-tabs-top {
+		> .jarvis-tabs-nav {
+			.ui-state-active {
+				border-bottom-color: $jarvis-tabs-active-color;
+
+				&:after, &:before {
+					border-top-color: #bbb;
+					bottom: -20px;
+					left: 50%;
+					margin-left: -10px;
+				}
+				&:before {
+					border-top-color: #fff;
+					bottom: -19px;
+					z-index: 2;
+				}
+			}
+		}
+
+		> .jarvis-tabs-pages {
+			> .jarvis-tab-page {
+				padding: 15px 10px 10px;
+			}
+		}
+	}
+
+	&.jarvis-tabs-left {
+		> .jarvis-tabs-nav {
+			.ui-state-active {
+				&:after, &:before {
+					border-left-color: #bbb;
+					top: 50%;
+					right: -20px;
+					margin-top: -10px;
+				}
+				&:before {
+					border-left-color: #fff;
+					right: -19px;
+					z-index: 2;
+				}
+			}
+		}
+	}
+}
+
+.jarvis-tabs-top {
+	> .jarvis-tabs-nav {
+		.ui-state-default {
+			float: left;
+			margin-left: -1px;
+			border-bottom: 0;
+			margin-bottom: 1px;
+
+			&:first-child {
+				margin-left: 0px;
+			}
+		}
+		.ui-state-active {
+			border-top-color: $jarvis-tabs-highlight-color;
+			border-bottom: 1px solid #fff;
+			margin-bottom: -1px;
+		}
+
+		margin-bottom: -1px;
+		clear: left;
+	}
+}
+
+.jarvis-tabs-left {
+	> .jarvis-tabs-nav {
+		float: left;
+		width: 181px;
+		margin-right: -1px;
+
+		.ui-state-default {
+			margin-top: -1px;
+
+			&:first-child { margin-top: 0; }
+		}
+		.ui-state-active {
+			border-left-color: $jarvis-tabs-highlight-color;
+		}
+	}
+
+	> .jarvis-tabs-pages {
+		padding-left: 180px;
+
+		> .jarvis-tab-page {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+.jarvis-tabs-small {
+	max-width: 425px;
+}
+.jarvis-tabs-medium {
+	max-width: 600px;
+}
+.jarvis-tabs-large {
+	max-width: 800px;
+}

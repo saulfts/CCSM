@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="plugin"
+	version="3.0"
+	group="system"
+	method="upgrade">
+	<name>plg_system_omgmenu</name>
+	<author>OmegaTheme.com</author>
+	<creationDate>Dec 2012</creationDate>
+	<copyright>Copyright (C) 2009 - 2013 OmegaTheme. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<version>2.5</version>
+  <scriptfile>install.script.php</scriptfile>
+	<description>This Plugin helps build a mega menu system with module mod_omgmenu.</description>
+	<files>
+		<folder plugin="omgmenu">language</folder>
+		<folder plugin="omgmenu">libs</folder>
+		<folder plugin="omgmenu">params</folder>
+		<filename plugin="omgmenu">omgmenu.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_omgmenu.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_omgmenu.sys.ini</language>
+	</languages>
+</extension>

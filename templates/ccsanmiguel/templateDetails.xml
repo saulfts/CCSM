@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install
+  PUBLIC '-//Joomla! 2.5//DTD template 1.0//EN'
+  'http://www.joomla.org/xml/dtd/2.5/template-install.dtd'>
+<extension client="site" method="upgrade" type="template" version="3.1">
+	<name>ccsanmiguel</name>
+	<version>1.0.0</version>
+	<edition>pro</edition>
+	<creationDate>June 2014</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2014 Omegatheme. All rights reserved.</copyright>
+	<description>TPL_OT_SMARTSOLUTIONS_XML_DESCRIPTION</description>
+	<group>jarvis</group>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>ot_smartsolutions_oem.json</filename>
+		<folder>assets</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>debug</position>
+		<position>navigator</position>
+		<position>promotion</position>
+		<position>spotlight-1</position>
+		<position>spotlight-2</position>
+		<position>spotlight-3</position>
+		<position>spotlight-4</position>
+		<position>main-sidebar</position>
+		<position>content-top-1</position>
+		<position>content-top-2</position>
+		<position>content-bottom-1</position>
+		<position>content-bottom-2</position>
+		<position>footer-area-1</position>
+		<position>footer-area-2</position>
+		<position>footer-area-3</position>
+		<position>footer-area-4</position>
+		<position>copyright</position>
+		<position>footer-widgets</position>
+		<position>top-area</position>
+		<position>middle-slide</position>
+		<position>middle-area</position>
+		<position>breadcrumbs</position>
+		<position>maintop</position>
+		<position>left</position>
+		<position>right</position>
+		<position>mainbottom-1</position>
+		<position>mainbottom-2</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>bottom-3</position>
+		<position>bottom-4</position>
+		<position>content-top-3</position>
+		<position>content-top-4</position>
+	<position>financieros</position></positions>
+	<schemes>
+		<scheme id="preset-1" cssFile="preset-1.css" color="#FFBF23">
+		</scheme>
+		<scheme id="preset-2" cssFile="preset-2.css" color="#169FE6" />
+		<scheme id="preset-3" cssFile="preset-3.css" color="#FA5B0F" />
+		<scheme id="preset-4" cssFile="preset-4.css" color="#C62020" />
+		<scheme id="preset-5" cssFile="preset-5.css" color="#37B6BD" />
+		<scheme id="preset-6" cssFile="preset-6.css" color="#B3C211" />
+		<scheme id="preset-7" cssFile="preset-7.css" color="#3B6E40" />
+		<scheme id="preset-8" cssFile="preset-8.css" color="#6957AF" />
+	</schemes>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ccsanmiguel.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ccsanmiguel.sys.ini</language>
+	</languages>
+</extension>

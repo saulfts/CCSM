@@ -1,0 +1,19 @@
+%clear-after {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.jarvis-triangle-down {
+	display: inline-block;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 1px;
+		border: 5px solid transparent;
+		border-top-color: #000;
+	}
+}

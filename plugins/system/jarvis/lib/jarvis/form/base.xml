@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<!-- Logo & Icons -->
+	<fields name="jarvis">
+		<!-- Logo -->
+		<field type="text" name="logo" id="logo" />
+		<field type="text" name="logoWidth" id="logoWidth" />
+		<field type="text" name="logoHeight" id="logoHeight" />
+
+		<!-- Logo Hight DPI -->
+		<field type="text" name="logo2x" id="logo2x" />
+		<field type="text" name="logo2xWidth" id="logo2xWidth" />
+		<field type="text" name="logo2xHeight" id="logo2xHeight" />
+
+		<field type="text" name="bookmarkIcon" id="bookmarkIcon" />
+		<field type="text" name="xsmallIcon" id="xsmallIcon" />
+		<field type="text" name="smallIcon" id="smallIcon" />
+		<field type="text" name="mediumIcon" id="mediumIcon" />
+		<field type="text" name="largeIcon" id="largeIcon" />
+
+		<field type="PresetList" name="templateColor" id="templateColor" default="preset-1" />
+		<field type="radio" name="layoutStyle" id="layoutStyle" default="0">
+			<option value="full-width">JARVIS_OPTION_FULL_WIDTH</option>
+			<option value="boxed">JARVIS_OPTION_BOXED</option>
+		</field>
+
+		<field type="text" name="layoutWidth" id="layoutWidth" default="1150" />
+		<field type="radio" name="layoutWidthUnit" id="layoutWidthUnit" default="px">
+			<option value="px">px</option>
+			<option value="%">%</option>
+		</field>
+
+		<field type="text" name="boxedMarginTop" id="boxedMarginTop" />
+		<field type="text" name="boxedMarginBottom" id="boxedMarginBottom" />
+		<field type="Background" name="boxedBackground" id="boxedBackground" />
+        <field type="text" name="backgroundImage" id="backgroundImage" />
+
+		<field type="radio" name="enableResponsive" id="enableResponsive" default="1">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+
+		<!-- Typography -->
+		<field type="text" name="generalSize" id="generalSize" default="14" />
+		<field type="list" name="generalSizeUnit" id="generalSizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="FontList" name="generalFont" id="generalFont" default="Open+Sans" />
+		<field type="text" name="generalLineHeight" id="generalLineHeight" default="18" />
+		<field type="list" name="generalLineHeightUnit" id="generalLineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+		<field type="ColorPicker" name="generalColor" id="generalColor" />
+
+		<field type="FontList" name="headingFont" id="headingFont" default="Roboto" />
+		<field type="ColorPicker" name="headingColor" id="headingColor" />
+
+		<field type="FontStyle" name="h1Style" id="h1Style" />
+		<field type="FontStyle" name="h2Style" id="h2Style" />
+		<field type="FontStyle" name="h3Style" id="h3Style" />
+		<field type="FontStyle" name="h4Style" id="h4Style" />
+		<field type="FontStyle" name="h5Style" id="h5Style" />
+		<field type="FontStyle" name="h6Style" id="h6Style" />
+
+		<field type="text" name="h1LineHeight" id="h1LineHeight" />
+		<field type="list" name="h1LineHeightUnit" id="h1LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h2LineHeight" id="h2LineHeight" />
+		<field type="list" name="h2LineHeightUnit" id="h2LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h3LineHeight" id="h3LineHeight" />
+		<field type="list" name="h3LineHeightUnit" id="h3LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h4LineHeight" id="h4LineHeight" />
+		<field type="list" name="h4LineHeightUnit" id="h4LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h5LineHeight" id="h5LineHeight" />
+		<field type="list" name="h5LineHeightUnit" id="h5LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h6LineHeight" id="h6LineHeight" />
+		<field type="list" name="h6LineHeightUnit" id="h6LineHeightUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h1Size" id="h1Size" />
+		<field type="list" name="h1SizeUnit" id="h1SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h2Size" id="h2Size" />
+		<field type="list" name="h2SizeUnit" id="h2SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h3Size" id="h3Size" />
+		<field type="list" name="h3SizeUnit" id="h3SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h4Size" id="h4Size" />
+		<field type="list" name="h4SizeUnit" id="h4SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h5Size" id="h5Size" />
+		<field type="list" name="h5SizeUnit" id="h5SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+		<field type="text" name="h6Size" id="h6Size" />
+		<field type="list" name="h6SizeUnit" id="h6SizeUnit" default="px">
+			<option value="px">px</option>
+			<option value="em">em</option>
+		</field>
+
+
+		<field type="ColorPicker" name="h1Color" id="h1Color" />
+		<field type="ColorPicker" name="h2Color" id="h2Color" />
+		<field type="ColorPicker" name="h3Color" id="h3Color" />
+		<field type="ColorPicker" name="h4Color" id="h4Color" />
+		<field type="ColorPicker" name="h5Color" id="h5Color" />
+		<field type="ColorPicker" name="h6Color" id="h6Color" />
+
+		<field type="StyleEditor" name="additionStyles" id="additionStyles" />
+		<field type="textarea" name="customCSS" id="customCSS" />
+
+		<!-- Advanced -->
+		<field type="radio" name="componentOnFrontpage" id="componentOnFrontpage" default="1">
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+		<field type="radio" name="styleSwitcher" id="showStyleSwitcher" default="1">
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+		
+		<field type="text" readonly="true" name="messagePosition" id="messagePosition" default="component" />
+
+		<field type="textarea" name="scriptAnalytics" id="scriptAnalytics" />
+		<field type="radio" name="analyticsPosition" id="analyticsPosition" default="head">
+			<option value="head">JARVIS_OPTION_BEFORE_HEAD_END</option>
+			<option value="body">JARVIS_OPTION_BEFORE_BODY_END</option>
+		</field>
+
+		<field type="textarea" name="customScriptHead" id="customScriptHead" />
+		<field type="textarea" name="customScriptBody" id="customScriptBody" />
+        
+        <field type="radio" name="layoutCache" id="layoutCache" default="1">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+        
+        <field type="text" name="layoutCacheTime" id="layoutCacheTime" default="60"/>
+        
+        <field type="radio" name="mergeCss" id="mergeCss" default="0">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+        
+        <field type="radio" name="mergeJs" id="mergeJs" default="0">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+        
+		<field type="file" name="uploadRestore" id="uploadRestore" />
+
+		<!-- Layout -->
+		<field type="hidden" name="layoutConfig" id="layoutConfig" />
+		<field type="hidden" name="layoutHash" id="layoutHash" />
+	</fields>
+</form>

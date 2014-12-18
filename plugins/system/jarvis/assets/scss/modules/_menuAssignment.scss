@@ -1,0 +1,58 @@
+.jarvis-menus-assignment,
+.jarvis-menus-assignment ul {
+	@extend %no-list-style;
+	@extend %reset;
+
+	font-size: 12px;
+}
+
+.jarvis-menus-assignment {
+	display: block;
+	margin: 10px -20px 0;
+}
+
+.jarvis-menu-type {
+	display: block;
+	width: 25%;
+	padding: 0 20px;
+	float: left;
+
+	> ul {
+		border: 1px solid #ccc;
+		border-radius: 2px;
+	}
+}
+
+.jarvis-menu-type-header {
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.jarvis-menu-type-header,
+.jarvis-menu-item {
+	@extend %reset;
+
+	label {
+		@extend %reset;
+	}
+}
+
+.jarvis-menu-item {
+	label {
+		display: block;
+		border-bottom: 1px solid #f0f0f0;
+		padding: 5px 20px;
+
+		&:hover {
+			background: #fcfcfc;
+		}
+	}
+
+	&:last-child {
+		label {
+			border-bottom: none;
+		}
+	}
+}
