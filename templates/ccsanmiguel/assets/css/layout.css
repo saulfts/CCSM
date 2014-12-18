@@ -1884,6 +1884,10 @@ a.readmore:hover{
     transition: all 750ms ease 0s;
 }
 
+.white a:link{
+	color: #fff;
+}
+
 
 .desaparece{
 	display: auto;

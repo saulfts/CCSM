@@ -170,7 +170,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 	
 }
 #oNavigatorBlock a{
-	color: #858585;
+	color: #ffffff;
 }
 #oNavigatorBlock a:hover{
 	color: #3B6E40;
@@ -976,6 +976,10 @@ a.readmore:hover{
 }
 .contactheader span {
 	color: white !important;
+}
+
+.contactheader a:link{
+	color:white !important;
 }
 
 .contactheader a:hover{
