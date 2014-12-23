@@ -315,6 +315,10 @@ border-color: #EAEAEA;
 	 border-color: #E7E7E7; 
 }
 .breadcrumb-header{
+	font-weight: bold;
+font-size: 2em;
+text-transform: uppercase;
+color: #025239;
 	
 }
 .breadcrumb,
