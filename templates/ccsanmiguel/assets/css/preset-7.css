@@ -1041,14 +1041,14 @@ margin-left: 10px;
 }
 
 @keyframes "windows_animation" {
-	0%,100% {
+	from,0%,100%,to {
 	-webkit-transform: perspective(400px) rotateY(25deg);
 	-moz-transform: perspective(400px) rotateY(25deg);
 	-o-transform: perspective(400px) rotateY(25deg);
 	-ms-transform: perspective(400px) rotateY(25deg);
 	transform: perspective(400px) rotateY(25deg);
 }
- 50% {
+ from,50%,to{
     -webkit-transform: perspective(400px) rotateY(-35deg);
    	-moz-transform: perspective(400px) rotateY(-35deg);
    	-o-transform: perspective(400px) rotateY(-35deg);
@@ -1071,11 +1071,11 @@ margin-left: 10px;
 }
 
 @-webkit-keyframes "windows_animation" {
-	0%,100% {
+	from,0%,100%,to {
 	-webkit-transform: perspective(400px) rotateY(25deg);
 	transform: perspective(400px) rotateY(25deg);
 }
- 50% {
+ from,50%,to {
    -webkit-transform: perspective(400px) rotateY(-35deg);
    transform: perspective(400px) rotateY(-35deg);
  }
@@ -1107,7 +1107,7 @@ margin-left: 10px;
 	-ms-transform: perspective(400px) rotateY(25deg);
 	transform: perspective(400px) rotateY(25deg);
 }
- 50% {
+from, 50%, to {
     -webkit-transform: perspective(400px) rotateY(-35deg);
    	-moz-transform: perspective(400px) rotateY(-35deg);
    	-o-transform: perspective(400px) rotateY(-35deg);

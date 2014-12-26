@@ -27,7 +27,7 @@ class K2ViewItem extends K2View
 		JHTML::_('behavior.modal');
 		JRequest::setVar('hidemainmenu', 1);
 		$document = JFactory::getDocument();
-		$document->addScript(JURI::root(true).'/media/k2/assets/js/nicEdit.js?v=2.6.8');
+		$document->addScript(JURI::root(true).'/media/k2/assets/js/nicEdit.js?v=2.6.9');
 		//var K2SitePath = '".JURI::root(true)."/';
 		$js = "
 					var K2BasePath = '".JURI::base(true)."/';
@@ -146,9 +146,9 @@ class K2ViewItem extends K2View
 		}
 
 		// Set up calendars
-		$lists['createdCalendar'] = JHTML::_('calendar', $created, 'created', 'created');
-		$lists['publish_up'] = JHTML::_('calendar', $publishUp, 'publish_up', 'publish_up');
-		$lists['publish_down'] = JHTML::_('calendar', $publishDown, 'publish_down', 'publish_down');
+		$lists['createdCalendar'] = JHTML::_('calendar', $created, 'created', 'created', '%Y-%m-%d %H:%M:%S');
+		$lists['publish_up'] = JHTML::_('calendar', $publishUp, 'publish_up', 'publish_up', '%Y-%m-%d %H:%M:%S');
+		$lists['publish_down'] = JHTML::_('calendar', $publishDown, 'publish_down', 'publish_down', '%Y-%m-%d %H:%M:%S');
 
 		if ($item->id)
 		{
